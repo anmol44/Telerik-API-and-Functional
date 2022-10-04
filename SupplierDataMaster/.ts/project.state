@@ -2,46 +2,6 @@
 <ArrayOfOpenItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <OpenItem>
     <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\CreationModificationRequest.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\MasterRun.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\Contact.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\SelectType.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\LoadSMD.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\SupplierSite.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\SupplierId.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>TestFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\LoginToApp.tstest</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>CodeFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\LoginToApp.tstest.cs</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>CodeFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\CreationModificationRequest.tstest.cs</Path>
-  </OpenItem>
-  <OpenItem>
-    <OpenItemType>CodeFile</OpenItemType>
-    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\SupplierDataMaster\ATC\SupplierSite.tstest.cs</Path>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\ATC\MasterRun.tstest</Path>
   </OpenItem>
 </ArrayOfOpenItem>
