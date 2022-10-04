@@ -1,0 +1,111 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
+  "__value": {
+    "TestListId": "86a3b0eb-6c37-490d-806e-60b029a21177",
+    "Id": "86a3b0eb-6c37-490d-806e-60b029a21177",
+    "TestListName": "PerformanceSMD",
+    "CreationDate": "2022-09-06T13:03:08+05:30",
+    "OwnerName": null,
+    "Settings": {
+      "__type": "ArtOfTest.WebAii.Core.Settings",
+      "__value": {
+        "ResponsiveWeb": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+ResponsiveWebSettings",
+          "__value": {
+            "Width": 414,
+            "Height": 896,
+            "UserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1. 38 (KHTML, like Gecko) Version/11.0 Mobile/15A356 Safari/604.1"
+          }
+        },
+        "Web": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
+          "__value": {
+            "IsProfilingExecution": true,
+            "ExecutingBrowsers": [],
+            "UseMultiBrowserExecution": false,
+            "RecycleBrowser": false,
+            "AspNetDevServerPort": -1,
+            "LocalWebServer": 0,
+            "EnableUILessRequestViewing": false,
+            "WebAppPhysicalPath": "",
+            "DefaultBrowser": 7,
+            "EnableScriptLogging": false,
+            "BaseUrl": "http://demos.teststudio.com/sampleapp",
+            "KillBrowserProcessOnClose": false,
+            "KillBrowsersBeforeStart": true,
+            "AutoCalibrateBrowsers": false,
+            "UseHttpProxy": false,
+            "EnableSilverlight": false,
+            "VerboseHttpProxy": false,
+            "SilverlightConnectTimeout": 60000,
+            "SilverlightApplicationPath": null,
+            "WebComponents": true,
+            "UseBrowserExtension": true
+          }
+        },
+        "Wpf": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
+          "__value": {
+            "DefaultApplicationPath": null
+          }
+        },
+        "Desktop": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+DesktopSettings",
+          "__value": {
+            "DefaultApplicationPath": null
+          }
+        },
+        "CreateLogFile": true,
+        "LogLocation": "C:\\WebAiiLog\\",
+        "QueryEventLogErrorsOnExit": false,
+        "LogAnnotations": false,
+        "SimulatedMouseMoveSpeed": 0.3,
+        "ExecuteInDevelopmentTests": false,
+        "WaitCheckInterval": 500,
+        "ElementWaitTimeout": 15000,
+        "SearchByImageFirst": false,
+        "ExecuteCommandTimeout": 20000,
+        "ExecutionDelay": 0,
+        "RerunFailedTests": false,
+        "UnexpectedDialogAction": 2,
+        "AnnotateExecution": false,
+        "AnnotationMode": 0,
+        "RecordingMode": 0,
+        "RecordingCodec": 0,
+        "RecordingScale": 100,
+        "RecordingFPS": 5,
+        "RecordingOutputLocation": "",
+        "RecordingSizeLimit": 0,
+        "XMultiMgr": true,
+        "ClientReadyTimeout": 60000,
+        "DisableDialogMonitoring": false,
+        "RunnerResponseTimeout": 0.0,
+        "EnableImageSearch": true,
+        "ElementImageSearchTimeout": 15000,
+        "ElementImageSearchDelay": 100,
+        "ScrollOnImageSearch": true,
+        "TelerikComponentsVersion": 0
+      }
+    },
+    "Tests": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "ad622b77-4563-487d-9da3-ab5b633879e4",
+          "Path": "ATC\\MasterRun.tstest",
+          "PathType": 0
+        }
+      }
+    ],
+    "Filter": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
+      "__value": {
+        "Keys": [],
+        "Comparisons": [],
+        "Values": []
+      }
+    },
+    "ListType": 2,
+    "ProjectId": "d0958ad3-8052-4115-b2cd-30435e861002"
+  }
+}

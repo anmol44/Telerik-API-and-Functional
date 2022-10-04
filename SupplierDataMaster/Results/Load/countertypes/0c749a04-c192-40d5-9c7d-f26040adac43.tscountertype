@@ -1,0 +1,1 @@
+﻿{"Id":null,"Data":{"Id":"0c749a04-c192-40d5-9c7d-f26040adac43","Name":"Bytes Received/second","Description":"Bytes received per second across all virtual users of the test. Only information in the body of the response is counted. This does not count header information.","PluginGuid":"644af6b4-f9bd-467a-a331-f4c73d0a228a"},"Metadata":null}

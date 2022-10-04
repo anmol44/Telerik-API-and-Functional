@@ -1,0 +1,9 @@
+{
+  "$version": "test-order/v1",
+  "items": [
+    "PrintBody.cs",
+    "CreateExcel.cs",
+    "DataToExcel.cs",
+    "JsonExtensions.cs"
+  ]
+}

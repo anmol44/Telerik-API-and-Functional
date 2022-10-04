@@ -1,0 +1,1675 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "0b33f011-f745-423e-9f19-5928d2ca6196",
+            "Description": "Wait for Exists 'Div'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "SearchByImageFirst": 0,
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/RequestCreation/Create",
+                          "Query": "",
+                          "BaseUrl": "https://arc.sd.is.ssg",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Creation request - Supplier Master Data",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "CreationRequestSupplier0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "he2OxZULO+NU43ChkQK6/0eAJaE=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Div4",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=tabstrip-2"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=div:2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.19042.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSitebvigc31j.2jf",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "23f1c522-1e23-4040-ae36-c0717c9e469d",
+            "Description": "Verify element 'SupplierSiteSpan' 'is' visible.",
+            "CustomDescription": "[SupplierSite_CodedStep8] : Click 'SupplierSiteSpan'  using xpath.",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            // Verify element 'SupplierSiteSpan' 'is' visible.\r\n            Element element=  Find.ByXPath(\"(//span[@class='k-link'])[1]\");          \r\n            Actions.Click(element);\r\n  \r\n            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "SupplierSite_CodedStep8",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSitepmuzvjs5.clw",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "557d6422-9c8a-42b2-bb4f-081ebc015b2f",
+            "Description": "Desktop command: LeftClick on SupplierSiteSpan",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "ScrollToVisibleType": 2,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/RequestCreation/Create",
+                          "Query": "",
+                          "BaseUrl": "https://arc.sd.is.ssg",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Creation request - Supplier Master Data",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "CreationRequestSupplier0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "h2Ah1P4xtpRazdURUAm81/BuLJA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SupplierSiteSpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Supplier site"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]/span[2]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "02F384D3464E63501FAF4FF300400D36FE5EF3B7F8FC886C44A3CC62D0EC5C00",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.19042.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSitepo3kkaca.fzu",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e31b1eba-f36b-4422-9001-6eab884a95e1",
+            "Description": "Wait for Exists 'Div'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "SearchByImageFirst": 0,
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/RequestCreation/Create",
+                          "Query": "",
+                          "BaseUrl": "https://arc.sd.is.ssg",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Creation request - Supplier Master Data",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "CreationRequestSupplier0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "/PCJR/32WrcOmyRaMmdngPAqTlU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Div3",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=tabstrip-1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=div:48"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.19042.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSitemt2ktocg.k4d",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c2d817b1-20ec-4f33-9995-56a13717c241",
+            "Description": "Enter text '092334354365' in 'EstablishmentIdentifierText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            // Enter text '092334354365' in 'EstablishmentIdentifierText'\r\n            String supplier = supplierIdGenerator().ToString();\r\n            Element element = Find.ByXPath(\"//input[@id='EstablishmentIdentifier' or @placeholder='Supplier site identifier']\");\r\n            Actions.SetText(element, supplier);\r\n             Log.WriteLine(supplier);\r\n            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "SupplierSite_CodedStep1",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSite41d4vyic.kju",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "7c538fa5-0fc8-4421-8294-1b4d35f6e32d",
+            "Description": "Wait for Exists 'SendRequestSpan'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "SearchByImageFirst": 0,
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/RequestCreation/Create",
+                          "Query": "",
+                          "BaseUrl": "https://arc.sd.is.ssg",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Creation request - Supplier Master Data",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "CreationRequestSupplier0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "QHhS4AzxR9Jti81K2EcZn68gf5Y=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SendRequestSpan0",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=k-link k-menu-link"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[1]/div[1]/ul[1]/li[1]/span[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.19042.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSite3bbqj3cs.245",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "792b351b-27ca-485a-a0ec-589a18779e51",
+            "Description": "Verify 'class' attribute 'Same' value 'k-link k-menu-link' on 'SendRequestSpan0'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.AttributeVerificationDescriptor",
+              "__value": {
+                "AttributeName": "class",
+                "AttributeValue": "k-link k-menu-link",
+                "CompareType": 1,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/RequestCreation/Create",
+                          "Query": "",
+                          "BaseUrl": "https://arc.sd.is.ssg",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Creation request - Supplier Master Data",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "CreationRequestSupplier0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "QHhS4AzxR9Jti81K2EcZn68gf5Y=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SendRequestSpan0",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=k-link k-menu-link"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[1]/div[1]/ul[1]/li[1]/span[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.19042.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSitems1z3d2z.uha",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e0bde9d2-05dc-48de-817a-18ee2c56140e",
+            "Description": "Desktop command: LeftClick on SendRequestSpan0",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            // Desktop command: LeftClick on SendRequestSpan0\r\n          //  Pages.CreationRequestSupplier0.SendRequestSpan0.Wait.ForExists(30000);\r\n          //  Pages.CreationRequestSupplier0.SendRequestSpan0.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementCenterAtWindowCenter);\r\n          //  Pages.CreationRequestSupplier0.SendRequestSpan0.MouseClick(ArtOfTest.WebAii.Core.MouseClickType.LeftClick, 0, 0, ArtOfTest.Common.OffsetReference.AbsoluteCenter);\r\n            \r\n            Element element =  Find.ByXPath(\"//span[@class='k-link k-menu-link' and contains(text(),'Send request')]\");\r\n            Actions.Click(element);",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "SupplierSite_CodedStep9",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "SupplierSiteyc1vw35u.45i",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/Request/Index",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Requests - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "RequestsSupplierMaster"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "2EsG881xKv4osdQcjB6CfJoGHhw=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "CreationSpan",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=^Creation/ Modif"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=span"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/nav[1]/div[3]/ul[1]/div[1]/div[6]/li[1]/a[1]/span[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 10,
+                    "Image": "E9BC5BD2FE30E2C5585CFAE540F0FF0902F585F7A3D85F89BE76665A925D4D7D",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "GIDAyNaT4slsrp6S8CsM7hU+H4w=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "EstablishmentIdentifierText",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=EstablishmentIdentifier"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/span[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 10,
+                    "Image": "6D836D34D4317124A45E6714C154FA7406D74F7D54ECD7B47482CCD09548264A",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "fxdEz/aCNlnsH3MYDkT/5JTXJvk=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "AccountFile0Hidden",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=AccountFile0"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[4]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 10,
+                    "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputHidden",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "fxdEz/aCNlnsH3MYDkT/5JTXJvk=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "AccountFile0Hidden",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=AccountFile0"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[4]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 10,
+                    "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputHidden",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "GIDAyNaT4slsrp6S8CsM7hU+H4w=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "EstablishmentIdentifierText",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=EstablishmentIdentifier"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/span[1]/input[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 7,
+                    "Image": "6D836D34D4317124A45E6714C154FA7406D74F7D54ECD7B47482CCD09548264A",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "qVEzK7sBxFD6csyZux5ouPSxOKI=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Tab1ListItem",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "XPath=#//span[@class=k-link and contains(text(),'Supplier site')]"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 10,
+                    "Image": "8FB7FE5F0A27A5DAA51AA7CDA86104DA5C38E70E11CA8C67E06BE4ABDE3C1FD2",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoTab",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "Je9XOWsP8LZKAqtGEof7SqX9qBE=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Div2",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=tabstrip-1"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagIndex=div:18"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": [
+                        1
+                      ]
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[4]/div[2]/div[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 7,
+                    "Image": "B8318EF4AC8AE97CA90EA7AA39C10FE376A59725AC85EF10587A0BEE9677CCBA",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "qVEzK7sBxFD6csyZux5ouPSxOKI=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Tab1ListItem",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "XPath=#//span[@class=k-link and contains(text(),'Supplier site')]"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 7,
+                    "Image": "7C494A9DA823DCEC61B452AEE6D8823C35FECF28C85B325F297378063E84C057",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoTab",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "h2Ah1P4xtpRazdURUAm81/BuLJA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "SupplierSiteSpan",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=Supplier site"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=span"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]/span[2]",
+              "ImageSearchClauses": [],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "h2Ah1P4xtpRazdURUAm81/BuLJA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "SupplierSiteSpan",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=Supplier site"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=span"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]/span[2]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 7,
+                    "Image": "02F384D3464E63501FAF4FF300400D36FE5EF3B7F8FC886C44A3CC62D0EC5C00",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/RequestCreation/Create",
+              "Query": "",
+              "BaseUrl": "https://arc.sd.is.ssg",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Creation request - Supplier Master Data",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "CreationRequestSupplier0"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "QHhS4AzxR9Jti81K2EcZn68gf5Y=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "SendRequestSpan0",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=k-link k-menu-link"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=span"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/section[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[1]/div[1]/ul[1]/li[1]/span[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 7,
+                    "Image": "42B601BC0D93DFCA6E350B46D113BF8E7FF9E40A87A0C57AB9B3C9C219062423",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.19042.0",
+                    "ScreenScale": 1.0,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      }
+    ],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "DesktopAppPath": null,
+    "UseDefaultDesktopAppPath": false,
+    "TestAssembly": "new-test-project.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "new_test_project.SupplierSite",
+    "IsManual": false,
+    "ResourceFilePath": "ATC\\SupplierSite.resx",
+    "ElementImageStoreFilePath": "ATC\\SupplierSite.imgstore",
+    "HasCodeBehind": true,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "SupplierSite",
+    "Owner": "",
+    "Path": "ATC\\SupplierSite.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "9ae58657-64df-46c7-8d4e-c8f9467f2df3",
+    "Id": "9ae58657-64df-46c7-8d4e-c8f9467f2df3",
+    "ProjectId": "d0958ad3-8052-4115-b2cd-30435e861002",
+    "Version": 200
+  }
+}

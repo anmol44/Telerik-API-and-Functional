@@ -1,0 +1,1 @@
+﻿{"Id":null,"Data":{"Id":"7e38f35f-a0d4-4809-9853-0aff51e7aeab","Name":"Time To First Byte per Interval (sec)","Description":"Total time (in seconds) across all virtual users from the moment a request was sent to the moment the response's header was received during this interval.","PluginGuid":"644af6b4-f9bd-467a-a331-f4c73d0a228a"},"Metadata":null}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="935" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="672">
+      <step id="7jBdhd1HWHjbBwo9mV3KZc" name="Http Request" outcome="failed" time="605">
+        <action id="5Qpa4pp1E5DUSPwA4hEEnI" type="http-request" outcome="passed" time="574" />
+        <action id="6Ag8fTtrJCYo50iyMXRfmj" type="verify" outcome="failed" time="22">
+          <error message="Expected was '200'. Actual was '500'" />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 500 Internal Server Error" />
+  </output>
+  <errors />
+</run>

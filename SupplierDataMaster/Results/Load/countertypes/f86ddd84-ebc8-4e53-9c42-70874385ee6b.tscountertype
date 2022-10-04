@@ -1,0 +1,1 @@
+﻿{"Id":null,"Data":{"Id":"f86ddd84-ebc8-4e53-9c42-70874385ee6b","Name":"Average Time to First Byte (ms)","Description":"An average (in milliseconds) of how long each response took to receive, from request sent to header recieved.","PluginGuid":"644af6b4-f9bd-467a-a331-f4c73d0a228a"},"Metadata":null}

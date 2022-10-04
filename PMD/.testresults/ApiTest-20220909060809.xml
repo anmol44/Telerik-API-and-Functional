@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="10519" total="1">
+  <tests>
+    <test key=".\CreateEmployeeApi" name="CreateEmployeeApi" outcome="failed" time="10263">
+      <step id="1CaCqj2zssGtA5kXNNR286" name="Http Request" outcome="failed" time="10177">
+        <action id="7q7IEWuvSgbQcKfK6y4G28" type="http-request" outcome="failed" time="10163">
+          <error message="The operation has timed-out." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="Executing HTTP Request: PUT  https://klif.pmdapi.is.ssg/api/v2/globalemployees" />
+  </output>
+  <errors />
+</run>

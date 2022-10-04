@@ -1,0 +1,1 @@
+﻿{"Id":null,"Data":{"Id":"a9183059-b930-4f22-a607-5e59cbe89f38","Name":"Bytes Sent/second","Description":"Bytes sent per second across all virtual users of the test. Only information in the body of the request is counted. This does not count header information.","PluginGuid":"644af6b4-f9bd-467a-a331-f4c73d0a228a"},"Metadata":null}

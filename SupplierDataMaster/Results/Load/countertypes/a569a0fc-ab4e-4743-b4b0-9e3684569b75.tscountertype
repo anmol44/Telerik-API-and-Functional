@@ -1,0 +1,1 @@
+﻿{"Id":null,"Data":{"Id":"a569a0fc-ab4e-4743-b4b0-9e3684569b75","Name":"Faulted Virtual Users","Description":"A total count of all virtual users over the life of the test that experienced any non-HTTP errors during their run of the test.","PluginGuid":"36b07c5f-8bb1-4270-b25d-16ef5cecc1a7"},"Metadata":null}

@@ -1,0 +1,8 @@
+{
+  "$version": "test-order/v1",
+  "items": [
+    "SalaryCostApi.apitest",
+    "CreateEmployeeApi.apitest",
+    "Utilities"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$version": "project-settings/v1",
+  "projectLanguage": "cs",
+  "projectReferences": [
+    "C:\\Users\\anchaudhary\\Documents\\Newtonsoft.Json.dll",
+    "GemBox.Spreadsheet"
+  ],
+  "skipCertificateValidation": false,
+  "variables": {
+    "base-url": "https://{{env}}.salarycostsapi.is.ssg/api/v1/SalaryCosts",
+    "path": "C://Users//anchaudhary//Downloads"
+  }
+}

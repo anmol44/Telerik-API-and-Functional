@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="1" failed="0" unexecuted="0" time="942" total="1">
+  <tests>
+    <test key=".\CreateEmployeeApi" name="CreateEmployeeApi" outcome="passed" time="694">
+      <step id="1CaCqj2zssGtA5kXNNR286" name="Http Request" outcome="passed" time="633">
+        <action id="7q7IEWuvSgbQcKfK6y4G28" type="http-request" outcome="passed" time="625" />
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="Executing HTTP Request: PUT  https://klif.pmdapi.is.ssg/api/v2/globalemployees" />
+    <output message="Response received with status code: 200 OK" />
+  </output>
+  <errors />
+</run>

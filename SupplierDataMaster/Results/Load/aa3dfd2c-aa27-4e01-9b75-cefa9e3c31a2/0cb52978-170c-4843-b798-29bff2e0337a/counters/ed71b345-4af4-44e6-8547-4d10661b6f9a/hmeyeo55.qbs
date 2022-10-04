@@ -1,0 +1,1 @@
+﻿{"Id":null,"Data":{"Id":"2844ccd0-a74e-4648-aa6e-042bb2a6f874","CounterId":"ed71b345-4af4-44e6-8547-4d10661b6f9a","Timestamp":"2022-09-02T05:41:25.7527173Z","PageSpecificMetrics":null,"Data":183.0},"Metadata":null}

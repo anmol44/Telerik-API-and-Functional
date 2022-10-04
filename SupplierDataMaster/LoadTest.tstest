@@ -1,0 +1,1392 @@
+{
+  "__type": "Telerik.TestStudio.Load.LoadDesignTest",
+  "__value": {
+    "ControllerConfiguration": {
+      "__type": "Telerik.TestStudio.Load.LoadControllerConfiguration",
+      "__value": {
+        "MachineName": null
+      }
+    },
+    "ProfiledServers": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerServerMetadata",
+        "__value": {
+          "CollectProfilerSampleData": true,
+          "Description": "",
+          "Name": "localhost",
+          "ProfilerPluginSettings": {
+            "a43b256e-1b44-415f-ade4-6e3ea44eb755": {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.PerformanceCounterProfiler.PerformanceCounterConfigurationSettings",
+              "__value": [
+                {
+                  "Key": "Processor",
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObject",
+                    "__value": {
+                      "Name": "Processor",
+                      "Description": null,
+                      "Instances": {
+                        "_Total": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "_Total",
+                            "Counters": {
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "Key": "Memory",
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObject",
+                    "__value": {
+                      "Name": "Memory",
+                      "Description": null,
+                      "Instances": {
+                        "instance-c6176c40-9f32-4de7-91a1-7be61c6d808f": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": null,
+                            "Counters": {
+                              "Available MBytes": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Available MBytes",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Pages/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Pages/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "ServerId": "86fd438b-076d-465b-8c12-c465373a8e5e",
+          "ServerPath": "localhost",
+          "ServerPort": 55555,
+          "ServerType": 0
+        }
+      }
+    ],
+    "Goals": [
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Average Response Time (ms)",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 500.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Average Response Time (ms)",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Average Response Time (ms) for Overall Test",
+          "RunDescription": "Fail this goal if Average Response Time (ms) is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 500. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 500.0,
+          "IsEnabled": true,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application respond in less than 3000 millisecond?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "HTTP Errors/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "HTTP Errors/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "HTTP Errors/second for Overall Test",
+          "RunDescription": "Fail this goal if HTTP Errors/second is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application throw no more than 10 errors per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Responses Received/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Responses Received/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Responses Received/second for Overall Test",
+          "RunDescription": "Pass this goal if Responses Received/second is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application handle more than 100 responses per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Current Virtual Users",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Current Virtual Users",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Current Virtual Users for Overall Test",
+          "RunDescription": "Pass this goal if Current Virtual Users is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application handle more than 1000 user requests concurrently?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Faulted Virtual Users",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": true,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": true
+            }
+          },
+          "Name": "Faulted Virtual Users",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Faulted Virtual Users for Overall Test",
+          "RunDescription": "Fail this goal if Faulted Virtual Users is greater than",
+          "ResultsDescription": "You specified to fail this goal and stop this test if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": true,
+          "StopTestWhenGoalMet": true,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": true,
+          "ExampleText": "This is a custom goal for Overall Test."
+        }
+      }
+    ],
+    "ControlAndLoadFromThisComputer": false,
+    "ReportingSampleInterval": "00:00:05",
+    "Duration": "00:02:00",
+    "Preferences": {
+      "ForceNewConnection": true,
+      "DelayGC": false
+    },
+    "IgnoreGoalsForXSeconds": 0,
+    "AuthorizationProfiles": [],
+    "IsManual": false,
+    "AutomaticallyDistributeUserGroups": false,
+    "ResourceFilePath": "LoadTest.resx",
+    "LoadAgentConfigurations": [],
+    "UserGroups": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenarioGroup",
+        "__value": {
+          "MinimumUsers": 1,
+          "StartUserCount": 10,
+          "MaxUserCount": 300,
+          "UserRampTimeInMinutes": 1.0,
+          "Name": null,
+          "UserScenarios": [
+            {
+              "__type": "Telerik.TestStudio.Load.ConfiguredScenario",
+              "__value": {
+                "IsEnabled": true,
+                "Percentage": 100.0,
+                "ScenarioId": "c671133e-b7bf-49a9-9e72-3df197d7f0ac"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "UserScenarios": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenario",
+        "__value": {
+          "BindingSources": {},
+          "BindingSourceSteps": {},
+          "Actions": [
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "368dec53-a497-4b74-a783-8f8d1a963d85",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/loading.gif",
+                    "ID": 1,
+                    "Timestamp": "2013-11-01T16:58:20.1845854+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/loading.gif",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:20.1845854+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/loading.gif",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.ThinkTimeScenarioStep",
+              "__value": {
+                "RecordedStartTime": "0001-01-01T00:00:00",
+                "DisplayHeader": "Think time",
+                "Duration": "00:00:01",
+                "DurationInSeconds": 1.0,
+                "Deviation": "00:00:01",
+                "DeviationInSeconds": 1.0,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "9a2a5f87-cc05-436e-916c-bc7ee1da5451",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/html, application/xhtml+xml, */*",
+                      "Referer": "http://demos.teststudio.com/sampleapp/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/inbox",
+                    "ID": 2,
+                    "Timestamp": "2013-11-01T16:58:22.1847854+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/inbox",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:22.1847854+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/inbox",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "ce332af1-4486-4baa-99d5-5e27f0badb6b",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/html, application/xhtml+xml, */*",
+                      "Referer": "http://demos.teststudio.com/sampleapp/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/inbox/",
+                    "ID": 3,
+                    "Timestamp": "2013-11-01T16:58:22.3498019+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/inbox/",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:22.3498019+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/inbox/",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "4e87fef0-8345-4a1b-a16b-2d1b944fe9c3",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/controls.css",
+                    "ID": 4,
+                    "Timestamp": "2013-11-01T16:58:22.8248494+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/controls.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:22.8248494+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/controls.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "22a2e0c0-b4b6-45dc-b95a-ae7b3d636201",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/kendo.common.min.css",
+                    "ID": 5,
+                    "Timestamp": "2013-11-01T16:58:22.8258495+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/kendo.common.min.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:22.8258495+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/kendo.common.min.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "ece24999-7ec2-4ae6-ae4f-9e8cb38f6abd",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/table.css",
+                    "ID": 6,
+                    "Timestamp": "2013-11-01T16:58:22.8278497+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/table.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:22.8278497+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/table.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "6a83483c-3413-4a12-9366-5f99ce5aec24",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/views.css",
+                    "ID": 7,
+                    "Timestamp": "2013-11-01T16:58:22.8258495+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/views.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:22.8258495+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/views.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "1632eb52-5575-40dd-890f-928eed48a64e",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/controls.css",
+                    "ID": 8,
+                    "Timestamp": "2013-11-01T16:58:23.4149084+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/controls.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:23.4149084+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/controls.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "7ad930e7-d40b-4a53-8b33-e1bc9d7e2f35",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/views.css",
+                    "ID": 9,
+                    "Timestamp": "2013-11-01T16:58:24.4120081+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/views.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:24.4120081+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/views.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "0777c13e-f853-409d-94fe-8b2fdb318147",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/kendo.common.min.css",
+                    "ID": 10,
+                    "Timestamp": "2013-11-01T16:58:26.4122081+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/kendo.common.min.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:26.4122081+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/kendo.common.min.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "ab86dfd3-b837-49e6-a996-26f9f6266332",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/table.css",
+                    "ID": 11,
+                    "Timestamp": "2013-11-01T16:58:25.4121081+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/table.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:25.4121081+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/table.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "04b22ffa-bb54-4f21-acd4-8bd2f1189ba7",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/css",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/kendo.default.min.css",
+                    "ID": 12,
+                    "Timestamp": "2013-11-01T16:58:27.4123081+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/kendo.default.min.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:27.4123081+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/kendo.default.min.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "4625b917-1414-4f16-9c39-cbed566bb436",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/trash_icon.png",
+                    "ID": 13,
+                    "Timestamp": "2013-11-01T16:58:35.1340802+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/trash_icon.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.1340802+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/trash_icon.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.ThinkTimeScenarioStep",
+              "__value": {
+                "RecordedStartTime": "0001-01-01T00:00:00",
+                "DisplayHeader": "Think time",
+                "Duration": "00:00:01",
+                "DurationInSeconds": 1.0,
+                "Deviation": "00:00:01",
+                "DeviationInSeconds": 1.0,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "bc86f339-8e7c-4904-936e-cd68f54d7ed4",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/spam_icon.png",
+                    "ID": 14,
+                    "Timestamp": "2013-11-01T16:58:35.1330801+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/spam_icon.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.1330801+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/spam_icon.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "a1b3c4a0-05f2-4908-9fb9-bb4fa87de496",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/greyalienoutline.png",
+                    "ID": 15,
+                    "Timestamp": "2013-11-01T16:58:35.1340802+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/greyalienoutline.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.1340802+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/greyalienoutline.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "0b7e8bdb-ad06-4ff1-93d3-8ac6ec1aff89",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/compose.png",
+                    "ID": 16,
+                    "Timestamp": "2013-11-01T16:58:35.1370805+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/compose.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.1370805+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/compose.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "f3c093e2-8e73-462a-b487-eac5191bfc5c",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/button2.png",
+                    "ID": 17,
+                    "Timestamp": "2013-11-01T16:58:35.1380806+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/button2.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.1380806+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/button2.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "3d58e583-f15d-478e-9d52-53f5762da0b4",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/sent_icon.png",
+                    "ID": 18,
+                    "Timestamp": "2013-11-01T16:58:35.1350803+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/sent_icon.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.1350803+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/sent_icon.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "aa7d4e14-b20f-4a16-98ee-78158750fcd7",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/button1.png",
+                    "ID": 19,
+                    "Timestamp": "2013-11-01T16:58:35.1380806+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/button1.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.1380806+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/button1.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "db3398a2-9e50-4246-89e1-2581e7a66ec5",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/button3.png",
+                    "ID": 20,
+                    "Timestamp": "2013-11-01T16:58:35.142081+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/button3.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.142081+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/button3.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "647a3920-be5d-4776-9ba5-361a41d1b56d",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/trash_icon_footer.png",
+                    "ID": 21,
+                    "Timestamp": "2013-11-01T16:58:35.912158+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/trash_icon_footer.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:35.912158+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/trash_icon_footer.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "c265191b-8789-4b91-a574-beae4778ea9f",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/spam_icon_footer.png",
+                    "ID": 22,
+                    "Timestamp": "2013-11-01T16:58:36.9132581+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/spam_icon_footer.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:36.9132581+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/spam_icon_footer.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "6d29ebdf-68bf-4355-a822-27562f91a8d1",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/logo_Small.png",
+                    "ID": 23,
+                    "Timestamp": "2013-11-01T16:58:37.912358+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/logo_Small.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:37.912358+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/logo_Small.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "fa866e74-5b75-42e9-ae83-6f9c8841d7bc",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "application/javascript, */*;q=0.8",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/scripts/kendo.all.min.js",
+                    "ID": 24,
+                    "Timestamp": "2013-11-01T16:58:38.9134581+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/scripts/kendo.all.min.js",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:38.9134581+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/scripts/kendo.all.min.js",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "2fb32766-0dd9-4892-9f5f-29fd233214b4",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/images/inbox_icon.png",
+                    "ID": 25,
+                    "Timestamp": "2013-11-01T16:58:40.0695737+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/images/inbox_icon.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:40.0695737+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/images/inbox_icon.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "41151b06-ae80-449d-81f7-bf0a343859b4",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/images/search.png",
+                    "ID": 26,
+                    "Timestamp": "2013-11-01T16:58:42.0307698+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/images/search.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:42.0307698+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/images/search.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "9602ca4f-c5a7-41a4-9c57-635dbadfc29c",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/images/transitionBground.png",
+                    "ID": 27,
+                    "Timestamp": "2013-11-01T16:58:42.0307698+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/images/transitionBground.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:42.0307698+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/images/transitionBground.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "4137e8ec-0ac8-4309-b7d6-6bce08336207",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/sampleapp/style/images/sprite.png",
+                    "ID": 28,
+                    "Timestamp": "2013-11-01T16:58:42.0767744+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/sampleapp/style/images/sprite.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:42.0767744+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/sampleapp/style/images/sprite.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "44686a8f-ad07-435a-baa4-08950174c01f",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://demos.teststudio.com/sampleapp/inbox/",
+                      "Accept-Language": "en-US",
+                      "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "demos.teststudio.com",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://demos.teststudio.com/emailSerivce/styles/textures/highlight.png",
+                    "ID": 29,
+                    "Timestamp": "2013-11-01T16:58:42.0767744+05:30"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://demos.teststudio.com/emailSerivce/styles/textures/highlight.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2013-11-01T16:58:42.0767744+05:30",
+                "DisplayHeader": "GET http://demos.teststudio.com/emailSerivce/styles/textures/highlight.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.ThinkTimeScenarioStep",
+              "__value": {
+                "RecordedStartTime": "0001-01-01T00:00:00",
+                "DisplayHeader": "Think time",
+                "Duration": "00:00:01",
+                "DurationInSeconds": 1.0,
+                "Deviation": "00:00:01",
+                "DeviationInSeconds": 1.0,
+                "IsEnabled": true
+              }
+            }
+          ],
+          "Description": "Traffic captured by running Test #1 - Attempt login with valid credentials, verify successful in InternetExplorer(11/1/2013 1:28:43 PM)",
+          "Guid": "c671133e-b7bf-49a9-9e72-3df197d7f0ac",
+          "WindowsAuthenticationProfileId": null,
+          "FunctionalTestBrowser": 1,
+          "FunctionalTestPath": "Test #1 - Attempt login with valid credentials, verify successful.tstest",
+          "Name": "Test #1 - Attempt login with valid credentials, verify successful"
+        }
+      }
+    ],
+    "LastView": 3,
+    "TestLinks": [],
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "Description": "",
+    "Name": "LoadTest",
+    "Owner": "",
+    "Path": "LoadTest.tstest",
+    "Priority": 0,
+    "TestType": 3,
+    "UniqueId": "799ff2bd-df5e-4580-997d-61fe2788aab4",
+    "Id": "799ff2bd-df5e-4580-997d-61fe2788aab4",
+    "ProjectId": "d0958ad3-8052-4115-b2cd-30435e861002",
+    "Version": 200,
+    "ExecutionDescription": "LoadTest for 2 minutes with 300 users"
+  }
+}

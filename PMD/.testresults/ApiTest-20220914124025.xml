@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="581" total="1">
+  <tests>
+    <test key=".\CreateEmployeeApi" name="CreateEmployeeApi" outcome="failed" time="218">
+      <step id="1CaCqj2zssGtA5kXNNR286" name="Http Request" outcome="failed" time="97">
+        <action id="7q7IEWuvSgbQcKfK6y4G28" type="http-request" outcome="failed" time="90">
+          <error message="URI non valide : Impossible d'analyser le nom d'hôte." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output />
+  <errors />
+</run>

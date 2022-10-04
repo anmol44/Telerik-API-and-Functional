@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="3257" total="1">
+  <tests>
+    <test key=".\CreateEmployeeApi" name="CreateEmployeeApi" outcome="failed" time="2944">
+      <step id="1uUOB5RwFuYS1nAx64Qd0W" name="LastName" outcome="passed" time="33">
+        <action id="3sT8AXjGPPjwFwTYIRauDv" type="coded-step" outcome="passed" time="26" />
+      </step>
+      <step id="1CaCqj2zssGtA5kXNNR286" name="Http Request" outcome="failed" time="1225">
+        <action id="7q7IEWuvSgbQcKfK6y4G28" type="http-request" outcome="passed" time="1195" />
+        <action id="2laKvIAQ46oyQ0kNigVJfI" type="verify" outcome="failed" time="29">
+          <error message="Expected was 'Antku'. Actual was 'null'" />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="LastName Antku with environment klif" />
+    <output message="Executing HTTP Request: PUT  https://klif.pmdapi.is.ssg/api/v2/globalemployees" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

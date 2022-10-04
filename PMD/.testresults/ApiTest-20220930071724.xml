@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="3180" total="1">
+  <tests>
+    <test key=".\CreateEmployeeApi" name="CreateEmployeeApi" outcome="failed" time="2879">
+      <step id="1uUOB5RwFuYS1nAx64Qd0W" name="LastName" outcome="passed" time="41">
+        <action id="3sT8AXjGPPjwFwTYIRauDv" type="coded-step" outcome="passed" time="31" />
+      </step>
+      <step id="1CaCqj2zssGtA5kXNNR286" name="Http Request" outcome="passed" time="1182">
+        <action id="7q7IEWuvSgbQcKfK6y4G28" type="http-request" outcome="passed" time="1182" />
+      </step>
+      <step id="3PzkxKYT7LFV1n1ijARuwf" name="ResponseToExcel" outcome="failed" time="72">
+        <action id="1nu9hsZs3LKKUbE86AD2uO" type="coded-step" outcome="failed" time="71">
+          <error message="Could not find file 'C:\Users\anchaudhary\Downloads\CreateEmployeeAPI.xlsx'." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="LastName Antku with environment klif" />
+    <output message="Executing HTTP Request: PUT  https://klif.pmdapi.is.ssg/api/v2/globalemployees" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

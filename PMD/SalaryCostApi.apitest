@@ -1,0 +1,105 @@
+{
+  "$version": "test-case/v1",
+  "className": "APIAutomation.SalaryCostApi",
+  "steps": [
+    {
+      "key": "5erTiX6FiI0ZwnWyljT8Sl",
+      "name": "CreateId",
+      "action": {
+        "key": "2J6tsbc8viWtqwq8MTntZ6",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "TestMethod"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "7jBdhd1HWHjbBwo9mV3KZc",
+      "name": "Http Request",
+      "action": {
+        "key": "5Qpa4pp1E5DUSPwA4hEEnI",
+        "type": "http-request",
+        "properties": {
+          "Method": "PUT",
+          "Body": "{\"Content\":\"{\\r\\n\\t\\\"IdPerson\\\": \\\"{{id}}\\\",\\r\\n\\t\\\"IdCurrency\\\": 15,\\r\\n\\t\\\"Year\\\": 2022,\\r\\n\\t\\\"Month\\\": 7,\\r\\n\\t\\\"FullTimeGrossSalary\\\": 3000.30,\\r\\n\\t\\\"ActualGrossSalary\\\": 3500.35,\\r\\n\\t\\\"EmployeeCostToDeduce\\\": 300.55,\\r\\n\\t\\\"EmployeeCostToAdd\\\": 400.55,\\r\\n\\t\\\"PaidLeaveAllowance\\\": 50.50,\\r\\n\\t\\\"LayOffAllowance\\\": 70.70,\\r\\n\\t\\\"MonthlyBonus\\\": 4000.44,\\r\\n\\t\\\"YearlyBonus\\\": 6000.66,\\r\\n\\t\\\"PreviousYearRegulationBonus\\\": 5000.55,\\r\\n\\t\\\"YearlyBonusYear\\\": 2022\\r\\n}\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "{{base-url}}",
+          "Authorization": "{\"mode\":\"none\",\"properties\":{\"username\":\"\",\"password\":\"\",\"properties\":{}}}",
+          "FollowRedirects": false,
+          "DecompressResponse": false,
+          "Headers": "[{\"Content-Type\":\"application/json\"}]",
+          "Timeout": 20000
+        }
+      },
+      "verifications": [
+        {
+          "key": "3DDdhG0I2CJrYzYKVRYZd2",
+          "type": "verify",
+          "ignored": true,
+          "properties": {
+            "SourceVariable": "Body",
+            "SourcePathType": "jsonpath",
+            "OperationType": "is-equal",
+            "Expectation": "{{id}}",
+            "SourcePath": "Results[:1].IdPerson"
+          }
+        }
+      ]
+    },
+    {
+      "key": "3MQkzQ1IuNmEEaVEDi2fZv",
+      "name": "ResponseToExcelData",
+      "action": {
+        "key": "5RAMFK9L0ggFJFZQn5F5Yb",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "ResultToExcel"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "18wnor0DXLub7Xr9RUaYkk",
+      "name": "BodyResponseJson",
+      "action": {
+        "key": "3MVdjG6JFTwZ8gCy00jr2",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "Count"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "7utJK2ufKd5yLsgyec1EXQ",
+      "name": "Loop",
+      "condition": {
+        "key": "5AJv0PFlcIDf65FBMPKJNG",
+        "type": "verify",
+        "properties": {
+          "SourceVariable": "inc",
+          "SourcePathType": "none",
+          "OperationType": "is-not-equal",
+          "Expectation": "{{length}}",
+          "IgnoreCase": true
+        }
+      },
+      "action": {
+        "key": "3E9KvaJC78sCmEZvSrTLTW",
+        "type": "goto",
+        "properties": {
+          "StepKey": "5erTiX6FiI0ZwnWyljT8Sl"
+        }
+      },
+      "verifications": []
+    }
+  ],
+  "variables": {
+    "env": "arc",
+    "length": null,
+    "inc": "0",
+    "id": null,
+    "json": " ",
+    "extractValue": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$version": "test-case/v1",
+  "className": "APIAutomation.CreateEmployeeApi",
+  "steps": [
+    {
+      "key": "1uUOB5RwFuYS1nAx64Qd0W",
+      "name": "LastName",
+      "action": {
+        "key": "3sT8AXjGPPjwFwTYIRauDv",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "TestMethod"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "1CaCqj2zssGtA5kXNNR286",
+      "name": "Http Request",
+      "action": {
+        "key": "7q7IEWuvSgbQcKfK6y4G28",
+        "type": "http-request",
+        "properties": {
+          "Method": "PUT",
+          "Body": "{\"Content\":\"{\\r\\n\\t\\\"EmployeeExtensionList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 5,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"Miss\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 7,\\r\\n\\t\\t\\t\\\"NumberValue\\\": 37.5\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 6,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"C25\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 9,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"Y\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 8,\\r\\n\\t\\t\\t\\\"NumberValue\\\": 10000\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 14,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"STDN_COPH\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 10,\\r\\n\\t\\t\\t\\\"NumberValue\\\": \\\"null\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 11,\\r\\n\\t\\t\\t\\\"NumberValue\\\": \\\"null\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 12,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 13,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"Employee\\\": {\\r\\n\\t\\t\\\"EmployeeSummary\\\": {\\r\\n\\t\\t\\t\\\"OpeningAccessDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"ClosureAccessDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"EmployeeDetails\\\": {\\r\\n\\t\\t\\t\\\"IdPersonType\\\": \\\"1\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"EmployeeLocalHRList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"IdLocalHR\\\": \\\"999447\\\",\\r\\n\\t\\t\\t\\t\\\"IdLocalHRSource\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\t\\\"LocalHRStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"LocalHREndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"ProfessionalContactInformation\\\": {\\r\\n\\t\\t\\\"ProfessionalContactInformationSummary\\\": {\\r\\n\\t\\t\\t\\\"IsVip\\\": null\\r\\n\\t\\t}\\r\\n\\t},\\r\\n\\t\\\"Person\\\": {\\r\\n\\t\\t\\\"PersonSummary\\\": {\\r\\n\\t\\t\\t\\\"LastName\\\": \\\"{{lastname}}\\\",\\r\\n\\t\\t\\t\\\"FirstName\\\": \\\"Tinaøad\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"PersonalInformation\\\": {\\r\\n\\t\\t\\t\\\"Gender\\\": \\\"M\\\",\\r\\n\\t\\t\\t\\\"PreferredLastName\\\": \\\"CCCZZZZ\\\",\\r\\n\\t\\t\\t\\\"PreferredFirstName\\\": \\\"Tinaøad\\\",\\r\\n\\t\\t\\t\\\"BirthDate\\\": \\\"1995-12-14\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"AddressList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"ZipCode\\\": \\\".\\\",\\r\\n\\t\\t\\t\\t\\\"City\\\": \\\".\\\",\\r\\n\\t\\t\\t\\t\\\"Country\\\": \\\"13\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"ContractList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdContractType\\\": \\\"2\\\",\\r\\n\\t\\t\\t\\\"IdContractNature\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\\"IdTerminationReason\\\": \\\"2\\\",\\r\\n\\t\\t\\t\\\"ContractStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"ContractEndDate\\\": \\\"2032-10-20\\\",\\r\\n\\t\\t\\t\\\"DurationOfTrialPeriod\\\": \\\"0\\\",\\r\\n\\t\\t\\t\\\"IdContractLocalHR\\\": \\\"9876522\\\",\\r\\n\\t\\t\\t\\\"IdUnitOfTrialPeriod\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\\"ReHireContractManagement\\\": \\\"True\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"EmploymentRateList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"EmploymentRatePayroll\\\": \\\"100\\\",\\r\\n\\t\\t\\t\\\"EmploymentRate\\\": \\\"100\\\",\\r\\n\\t\\t\\t\\\"StartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"EndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"EmployeeAllocationList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdBusinessUnit\\\": \\\"2351\\\",\\r\\n\\t\\t\\t\\\"IdCompany\\\": \\\"219\\\",\\r\\n\\t\\t\\t\\\"IdAdministrativeSite\\\": \\\"1210\\\",\\r\\n\\t\\t\\t\\\"StartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"EndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"Salary\\\": {\\r\\n\\t\\t\\\"SalarySummaryList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"NumberOfPayrollPerYear\\\": \\\"12\\\",\\r\\n\\t\\t\\t\\t\\\"SalaryStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"SalaryEndDate\\\": \\\"2032-10-20\\\",\\r\\n\\t\\t\\t\\t\\\"IdCurrency\\\": \\\"14\\\",\\r\\n\\t\\t\\t\\t\\\"FullTimeGrossSalary\\\": \\\"38160\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t],\\r\\n\\t\\t\\\"PayrollStatusList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"IdPayrollStatus\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\t\\\"PayrollStatusStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"PayrollStatusEndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"OFAData\\\": {\\r\\n\\t\\t\\\"DepartmentCode\\\": \\\"DPA098\\\"\\r\\n\\t},\\r\\n\\t\\\"LineManagerList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdPersonLineManager\\\": \\\"89717\\\",\\r\\n\\t\\t\\t\\\"LineManagerStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"LineManagerEndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"Employment\\\": {\\r\\n\\t\\t\\\"EmploymentCodeList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"EmploymentCodeStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"EmploymentCodeEndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"GlobalCareerFrameworkList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdJobType\\\": \\\"472\\\",\\r\\n\\t\\t\\t\\\"EndDate\\\": \\\"2032-10-20\\\",\\r\\n\\t\\t\\t\\\"StartDate\\\": \\\"2022-07-12\\\"\\r\\n\\t\\t}\\r\\n\\t]\\r\\n},\\r\\n{\\r\\n\\t\\\"EmployeeExtensionList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 5,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"Miss\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 7,\\r\\n\\t\\t\\t\\\"NumberValue\\\": 37.5\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 6,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"C25\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 9,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"Y\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 8,\\r\\n\\t\\t\\t\\\"NumberValue\\\": 10000\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 14,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"STDN_COPH\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 10,\\r\\n\\t\\t\\t\\\"NumberValue\\\": \\\"null\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 11,\\r\\n\\t\\t\\t\\\"NumberValue\\\": \\\"null\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 12,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"\\\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdMetadata\\\": 13,\\r\\n\\t\\t\\t\\\"StringValue\\\": \\\"\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"Employee\\\": {\\r\\n\\t\\t\\\"EmployeeSummary\\\": {\\r\\n\\t\\t\\t\\\"OpeningAccessDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"ClosureAccessDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"EmployeeDetails\\\": {\\r\\n\\t\\t\\t\\\"IdPersonType\\\": \\\"1\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"EmployeeLocalHRList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"IdLocalHR\\\": \\\"999447\\\",\\r\\n\\t\\t\\t\\t\\\"IdLocalHRSource\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\t\\\"LocalHRStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"LocalHREndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"ProfessionalContactInformation\\\": {\\r\\n\\t\\t\\\"ProfessionalContactInformationSummary\\\": {\\r\\n\\t\\t\\t\\\"IsVip\\\": null\\r\\n\\t\\t}\\r\\n\\t},\\r\\n\\t\\\"Person\\\": {\\r\\n\\t\\t\\\"PersonSummary\\\": {\\r\\n\\t\\t\\t\\\"LastName\\\": \\\"Chaudhary\\\",\\r\\n\\t\\t\\t\\\"FirstName\\\": \\\"Tinaøad\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"PersonalInformation\\\": {\\r\\n\\t\\t\\t\\\"Gender\\\": \\\"M\\\",\\r\\n\\t\\t\\t\\\"PreferredLastName\\\": \\\"CCCZZZZ\\\",\\r\\n\\t\\t\\t\\\"PreferredFirstName\\\": \\\"Tinaøad\\\",\\r\\n\\t\\t\\t\\\"BirthDate\\\": \\\"1995-12-14\\\"\\r\\n\\t\\t},\\r\\n\\t\\t\\\"AddressList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"ZipCode\\\": \\\".\\\",\\r\\n\\t\\t\\t\\t\\\"City\\\": \\\".\\\",\\r\\n\\t\\t\\t\\t\\\"Country\\\": \\\"13\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"ContractList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdContractType\\\": \\\"2\\\",\\r\\n\\t\\t\\t\\\"IdContractNature\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\\"IdTerminationReason\\\": \\\"2\\\",\\r\\n\\t\\t\\t\\\"ContractStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"ContractEndDate\\\": \\\"2032-10-20\\\",\\r\\n\\t\\t\\t\\\"DurationOfTrialPeriod\\\": \\\"0\\\",\\r\\n\\t\\t\\t\\\"IdContractLocalHR\\\": \\\"9876522\\\",\\r\\n\\t\\t\\t\\\"IdUnitOfTrialPeriod\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\\"ReHireContractManagement\\\": \\\"True\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"EmploymentRateList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"EmploymentRatePayroll\\\": \\\"100\\\",\\r\\n\\t\\t\\t\\\"EmploymentRate\\\": \\\"100\\\",\\r\\n\\t\\t\\t\\\"StartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"EndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"EmployeeAllocationList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdBusinessUnit\\\": \\\"2351\\\",\\r\\n\\t\\t\\t\\\"IdCompany\\\": \\\"219\\\",\\r\\n\\t\\t\\t\\\"IdAdministrativeSite\\\": \\\"1210\\\",\\r\\n\\t\\t\\t\\\"StartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"EndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"Salary\\\": {\\r\\n\\t\\t\\\"SalarySummaryList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"NumberOfPayrollPerYear\\\": \\\"12\\\",\\r\\n\\t\\t\\t\\t\\\"SalaryStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"SalaryEndDate\\\": \\\"2032-10-20\\\",\\r\\n\\t\\t\\t\\t\\\"IdCurrency\\\": \\\"14\\\",\\r\\n\\t\\t\\t\\t\\\"FullTimeGrossSalary\\\": \\\"38160\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t],\\r\\n\\t\\t\\\"PayrollStatusList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"IdPayrollStatus\\\": \\\"1\\\",\\r\\n\\t\\t\\t\\t\\\"PayrollStatusStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"PayrollStatusEndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"OFAData\\\": {\\r\\n\\t\\t\\\"DepartmentCode\\\": \\\"DPA098\\\"\\r\\n\\t},\\r\\n\\t\\\"LineManagerList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdPersonLineManager\\\": \\\"89717\\\",\\r\\n\\t\\t\\t\\\"LineManagerStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\\"LineManagerEndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t}\\r\\n\\t],\\r\\n\\t\\\"Employment\\\": {\\r\\n\\t\\t\\\"EmploymentCodeList\\\": [\\r\\n\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\\"EmploymentCodeStartDate\\\": \\\"2022-07-12\\\",\\r\\n\\t\\t\\t\\t\\\"EmploymentCodeEndDate\\\": \\\"2032-10-20\\\"\\r\\n\\t\\t\\t}\\r\\n\\t\\t]\\r\\n\\t},\\r\\n\\t\\\"GlobalCareerFrameworkList\\\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\\\"IdJobType\\\": \\\"472\\\",\\r\\n\\t\\t\\t\\\"EndDate\\\": \\\"2032-10-20\\\",\\r\\n\\t\\t\\t\\\"StartDate\\\": \\\"2022-07-12\\\"\\r\\n\\t\\t}\\r\\n\\t]\\r\\n}\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Headers": "[{\"Content-Type\":\"application/json\"}]",
+          "Url": "{{base-url}}",
+          "Timeout": 20000
+        }
+      },
+      "verifications": [
+        {
+          "key": "2laKvIAQ46oyQ0kNigVJfI",
+          "type": "verify",
+          "ignored": true,
+          "properties": {
+            "SourceVariable": "Body",
+            "SourcePathType": "jsonpath",
+            "OperationType": "is-equal",
+            "Expectation": "{{lastname}}",
+            "SourcePath": "$['Results'][0]['Person']['PersonSummary']['LastName']",
+            "IgnoreCase": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "3PzkxKYT7LFV1n1ijARuwf",
+      "name": "ResponseToExcel",
+      "action": {
+        "key": "1nu9hsZs3LKKUbE86AD2uO",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "ResultToExcel"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "2S1KsNWR2SYb4ICwoL2cEP",
+      "name": "BodyResponseJson",
+      "action": {
+        "key": "6suc1xTyxvtHpRipGNjr6N",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "Print"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "1sEFxCiGNC0gbV4eWks4mC",
+      "name": "Loop",
+      "condition": {
+        "key": "12jgB0OLeVjyzLQmkl71n0",
+        "type": "verify",
+        "properties": {
+          "SourceVariable": "inc",
+          "SourcePathType": "none",
+          "OperationType": "is-not-equal",
+          "Expectation": "{{length}}",
+          "IgnoreCase": true
+        }
+      },
+      "action": {
+        "key": "2dNgi349VRZurcoV1U6tNf",
+        "type": "goto",
+        "properties": {
+          "StepKey": "1uUOB5RwFuYS1nAx64Qd0W"
+        }
+      },
+      "verifications": []
+    }
+  ],
+  "variables": {
+    "base-url": " https://{{env1}}.pmdapi.is.ssg/api/v2/globalemployees",
+    "lastname": null,
+    "env1": "klif",
+    "length": null,
+    "inc": "0",
+    "json": " ",
+    "extractValue": null
+  }
+}

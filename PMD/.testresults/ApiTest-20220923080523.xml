@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="2525" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="2242">
+      <step id="5erTiX6FiI0ZwnWyljT8Sl" name="CreateId" outcome="passed" time="48">
+        <action id="2J6tsbc8viWtqwq8MTntZ6" type="coded-step" outcome="passed" time="38" />
+      </step>
+      <step id="7jBdhd1HWHjbBwo9mV3KZc" name="Http Request" outcome="passed" time="2177">
+        <action id="5Qpa4pp1E5DUSPwA4hEEnI" type="http-request" outcome="passed" time="2147" />
+        <action id="3DDdhG0I2CJrYzYKVRYZd2" type="verify" outcome="passed" time="29" />
+      </step>
+      <step id="18wnor0DXLub7Xr9RUaYkk" name="PrintBody" outcome="failed" time="5">
+        <action id="3MVdjG6JFTwZ8gCy00jr2" type="coded-step" outcome="failed" time="5">
+          <error message="La référence d'objet n'est pas définie à une instance d'un objet." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="Print loop 26424" />
+    <output message="26424" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+  </output>
+  <errors />
+</run>
