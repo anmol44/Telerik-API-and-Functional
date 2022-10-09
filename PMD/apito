@@ -3,6 +3,7 @@
   "items": [
     "SalaryCostApi.apitest",
     "CreateEmployeeApi.apitest",
-    "Utilities"
+    "Utilities",
+    "Output"
   ]
 }
