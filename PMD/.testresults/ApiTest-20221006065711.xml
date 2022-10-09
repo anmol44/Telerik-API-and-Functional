@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="652" total="1">
+  <tests>
+    <test key=".\CreateEmployeeApi" name="CreateEmployeeApi" outcome="failed" time="309" />
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors>
+    <error message="Running test's 'OnBeforeTestStarted' method failed. Message: 'The process cannot access the file 'C:\Users\anchaudhary\Downloads\CreateEmployeeAPI.xlsx' because it is being used by another process.'" />
+  </errors>
+</run>

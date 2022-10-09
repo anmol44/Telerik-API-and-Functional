@@ -64,6 +64,7 @@ namespace APIAutomation
 			string code="";
 			string path ="";
 			string errors="";
+			string error="";
 			string row = "";
 			string id ="";
 			string responseTime="";
@@ -90,8 +91,14 @@ namespace APIAutomation
 			int pou = (Int32)(j.Count);
 			this.Log.WriteLine("Number of Tokens in Jason : "+pou.ToString());
 			
-			// calculate result of API response
+			//calculate error array
+			try{
+				error = j["Errors"][0].ToString();
+			}catch(Exception e){
+				this.Log.WriteLine("no errors found for : "+id.ToUpper());
+			}
 			
+			// calculate result of API response
 			try{
 			 result = j["Results"][0]["Person"]["PersonSummary"]["LastName"].ToString();
 			}catch(Exception e){
@@ -102,7 +109,7 @@ namespace APIAutomation
 				result = "PASS";
 			}else 
 				result ="FALSE";
-			
+			if(error.Length!=0){		
 			try{				
 				foreach(JToken token in j.FindTokens("Code")){
 					code = code+token.ToString()+"\n";					
@@ -114,6 +121,10 @@ namespace APIAutomation
 			 }catch(Exception e){
 				this.Log.WriteLine("no value for IdPerson");				
 			      }		
+			 }
+			if(string.IsNullOrWhiteSpace(code)){
+				code="null";
+			}
 			 
 			DataToExcel.createDataExcelFile(path,"CreateEmployeeAPI",row,id,result,responseTime,statusCode,code,errors,"");			
 			this.Log.WriteLine(errors);			

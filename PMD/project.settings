@@ -2,12 +2,12 @@
   "$version": "project-settings/v1",
   "projectLanguage": "cs",
   "projectReferences": [
-    "C:\\Users\\anchaudhary\\Documents\\Newtonsoft.Json.dll",
-    "GemBox.Spreadsheet"
+    "GemBox.Spreadsheet",
+    "C:\\Users\\anchaudhary\\Documents\\newtonsoft.json\\Newtonsoft.Json.dll"
   ],
   "skipCertificateValidation": false,
   "variables": {
     "base-url": "https://{{env}}.salarycostsapi.is.ssg/api/v1/SalaryCosts",
-    "path": "C://Users//anchaudhary//Downloads"
+    "path": "C:\\Users\\anchaudhary\\Documents\\Test Studio Projects\\Indus-PerformancesMeasurements\\PMD\\Output"
   }
 }
