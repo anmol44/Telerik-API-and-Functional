@@ -67,6 +67,8 @@ namespace APIAutomation
 			string responseTime="";
 			string statusCode="";
 			string result ="";
+		    string env ="";
+		    string vers = "";
 			
 			//path of file
 			path  =  this.Context.GetValue("path").ToString();
@@ -82,6 +84,12 @@ namespace APIAutomation
 			
 			//responseCode of API Hitting
 			statusCode = this.Context.GetValue("StatusCode").ToString();
+		
+		    // environment of test
+		    env =  this.Context.GetValue("env").ToString();
+		
+		    // environment of test
+		    vers =  this.Context.GetValue("version").ToString();
 			
 		    string body = this.Context.GetValue("Body").ToString();
 			JObject j = JObject.Parse(body);
@@ -113,7 +121,7 @@ namespace APIAutomation
 				this.Log.WriteLine("no value for IdPerson");				
 			      }		
 			 
-			DataToExcel.createDataExcelFile(path,"salaryApi",row,id,result,responseTime,statusCode,code,errors,"");			
+			DataToExcel.createDataExcelFile(path,"salaryApi",row,id,result,responseTime,statusCode,code,errors,env,vers);			
 			this.Log.WriteLine(errors);			
 		}
 		

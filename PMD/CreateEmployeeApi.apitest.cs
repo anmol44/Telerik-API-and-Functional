@@ -23,7 +23,7 @@ namespace APIAutomation
 			loop=loop+1;
 			this.Context.SetValue("inc",loop.ToString());
 			this.Context.SetValue("lastname",lm);
-			var e = this.Context.GetValue("env1");			
+			var e = this.Context.GetValue("env");			
 			this.Log.WriteLine("LastName "+this.Context.GetValue("lastname").ToString() + " with environment "+e);			
 		}
 		
@@ -70,6 +70,8 @@ namespace APIAutomation
 			string responseTime="";
 			string statusCode="";
 			string result ="";
+			string env ="";
+			string vers = "";
 			
 			//path of file
 			path  =  this.Context.GetValue("path").ToString();
@@ -85,6 +87,12 @@ namespace APIAutomation
 			
 			//responseCode of API Hitting
 			statusCode = this.Context.GetValue("StatusCode").ToString();
+			
+			  // environment of test
+		    env =  this.Context.GetValue("env").ToString();
+		
+		    // environment of test
+		    vers =  this.Context.GetValue("version").ToString();
 			
 		    string body = this.Context.GetValue("Body").ToString();
 			JObject j = JObject.Parse(body);
@@ -126,7 +134,7 @@ namespace APIAutomation
 				code="null";
 			}
 			 
-			DataToExcel.createDataExcelFile(path,"CreateEmployeeAPI",row,id,result,responseTime,statusCode,code,errors,"");			
+			DataToExcel.createDataExcelFile(path,"CreateEmployeeAPI",row,id,result,responseTime,statusCode,code,errors,env,vers);			
 			this.Log.WriteLine(errors);			
 		}
 		

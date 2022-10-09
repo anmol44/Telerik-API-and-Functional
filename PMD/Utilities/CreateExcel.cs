@@ -29,6 +29,7 @@ namespace APIAutomation.Utilities
 		      worksheet.Columns[10].Width = 35 * 256;
 			  worksheet.Columns[12].Width = 35 * 256;
 			  worksheet.Columns[14].Width = 35 * 256;
+			  worksheet.Columns[16].Width = 35 * 256; 
 			
 			
 			  worksheet.Cells[0, 0].Value = "SR NUMBER";
@@ -58,7 +59,10 @@ namespace APIAutomation.Utilities
 			  worksheet.Cells[0, 12].Style.Font.Color = SpreadsheetColor.FromName(ColorName.Blue);
 				
               worksheet.Cells[0, 14].Value = "ENVIRONMENT";
-			  worksheet.Cells[0, 14].Style.Font.Color = SpreadsheetColor.FromName(ColorName.Blue);     	
+			  worksheet.Cells[0, 14].Style.Font.Color = SpreadsheetColor.FromName(ColorName.Blue); 
+			
+			  worksheet.Cells[0, 16].Value = "VERSION";
+			  worksheet.Cells[0, 16].Style.Font.Color = SpreadsheetColor.FromName(ColorName.Blue);   	
 
 			
 		

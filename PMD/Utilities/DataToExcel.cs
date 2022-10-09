@@ -11,7 +11,7 @@ namespace APIAutomation.Utilities
 		public static void createDataExcelFile(string path, string fileName, string row, string id,
 			                                       string result ,string responseTime, 
 			                                       string statusCode, string  errorCode,
-			                                       string errorMessage, string Environment ){
+			                                       string errorMessage, string Environment, string version ){
 				 
                 SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
 			 	var workbook =  ExcelFile.Load(path+"\\"+fileName+".xlsx");
@@ -30,6 +30,8 @@ namespace APIAutomation.Utilities
 				worksheet.Cells[r,10].Value = errorCode;
 				worksheet.Cells[r,12].Value = errorMessage;
 				worksheet.Cells[r,14].Value = Environment;
+				worksheet.Cells[r,16].Value = version;
+				
 					
 				workbook.Save(path+"\\"+fileName+".xlsx");	
 				

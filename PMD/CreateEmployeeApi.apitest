@@ -93,12 +93,13 @@
     }
   ],
   "variables": {
-    "base-url": " https://{{env1}}.pmdapi.is.ssg/api/v2/globalemployees",
+    "base-url": " https://{{env}}.pmdapi.is.ssg/api/{{version}}/globalemployees",
     "lastname": null,
-    "env1": "klif",
     "length": null,
     "inc": "0",
     "json": " ",
-    "extractValue": null
+    "extractValue": null,
+    "env": "klif",
+    "version": "v2"
   }
 }
