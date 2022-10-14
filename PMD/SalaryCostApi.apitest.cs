@@ -12,7 +12,7 @@ namespace APIAutomation
     {				
 	public void TestMethod()
 		{
-			String[] lastnames ={"26424", "30730","33793", "59179", "59260", "60393", "112142", "112174", "112396", "114667", "129877", "174711", "179106", "181411", "189384", "191829", "210490", "233334", "236829", "257356"};	
+			String[] lastnames ={"26424", "30730","33793", "102891", "59260", "60393", "112142", "112174", "112396", "176447", "129877", "174711", "179106", "135231", "189384", "191829", "210490", "233334", "236829", "257356"};	
 		    int length = lastnames.GetLength(0);
 			this.Context.SetValue("length",length.ToString());
 			int loop = Int32.Parse(this.Context.GetValue("inc").ToString());
