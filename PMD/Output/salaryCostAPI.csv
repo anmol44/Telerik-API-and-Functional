@@ -1,0 +1,20 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION
+1,2642456,FALSE,3737,200,"0002
+0002
+0002
+0010
+0010
+0008
+0350
+","The IdPerson field is mandatory.
+The EffectiveDate field is mandatory.
+The employee -1 does not exist.
+The field SalaryStartDate is mandatory.
+The field SalaryEndDate is mandatory.
+The IdCurrency with the identifier 15 cannot be found.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+2,30730,PASS,7207,200,"","",arc,v1
+3,33793,PASS,7230,200,"","",arc,v1
+4,102891,PASS,2379,200,"","",arc,v1
+5,59260,PASS,2139,200,"","",arc,v1

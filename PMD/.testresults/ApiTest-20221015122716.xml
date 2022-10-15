@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="2776" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="2366" />
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors>
+    <error message="Running test's 'OnBeforeTestStarted' method failed. Message: 'This file has some problem : System.IO.IOException: The process cannot access the file 'C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\PMD\Output\salaryCostAPI.csv' because it is being used by another process.&#xD;&#xA;   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)&#xD;&#xA;   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)&#xD;&#xA;   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter..ctor(String path, Boolean append)&#xD;&#xA;   at PMD.Utilities.CreateCSV.addrecord(String SrNumber, String Id, String Result, String ResponseTime, String StatusCode, String ErrorCode, String ErrorMessage, String Environment, String Version, String path) in C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\PMD\Utilities\CreateCSV.cs:line 12'" />
+  </errors>
+</run>

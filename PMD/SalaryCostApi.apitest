@@ -59,28 +59,16 @@
       "verifications": []
     },
     {
-      "key": "18wnor0DXLub7Xr9RUaYkk",
-      "name": "BodyResponseJson",
-      "action": {
-        "key": "3MVdjG6JFTwZ8gCy00jr2",
-        "type": "coded-step",
-        "properties": {
-          "TestMethod": "Count"
-        }
-      },
-      "verifications": []
-    },
-    {
       "key": "7utJK2ufKd5yLsgyec1EXQ",
       "name": "Loop",
       "condition": {
         "key": "5AJv0PFlcIDf65FBMPKJNG",
         "type": "verify",
         "properties": {
-          "SourceVariable": "inc",
+          "SourceVariable": "row",
           "SourcePathType": "none",
           "OperationType": "is-not-equal",
-          "Expectation": "{{length}}",
+          "Expectation": "5",
           "IgnoreCase": true
         }
       },
@@ -101,6 +89,8 @@
     "id": null,
     "json": " ",
     "extractValue": null,
-    "version": "v1"
+    "version": "v1",
+    "row": "0",
+    "fileName": "\\\\salaryCostAPI.csv"
   }
 }

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="4971" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="4574">
+      <step id="5erTiX6FiI0ZwnWyljT8Sl" name="CreateId" outcome="passed" time="38">
+        <action id="2J6tsbc8viWtqwq8MTntZ6" type="coded-step" outcome="passed" time="28" />
+      </step>
+      <step id="7jBdhd1HWHjbBwo9mV3KZc" name="Http Request" outcome="passed" time="2837">
+        <action id="5Qpa4pp1E5DUSPwA4hEEnI" type="http-request" outcome="passed" time="2837" />
+      </step>
+      <step id="3MQkzQ1IuNmEEaVEDi2fZv" name="ResponseToExcelData" outcome="failed" time="165">
+        <action id="5RAMFK9L0ggFJFZQn5F5Yb" type="coded-step" outcome="failed" time="165">
+          <error message="This file has some problem : System.NotSupportedException: The given path's format is not supported.&#xD;&#xA;   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)&#xD;&#xA;   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)&#xD;&#xA;   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter..ctor(String path, Boolean append)&#xD;&#xA;   at PMD.Utilities.CreateCSV.addrecord(String SrNumber, String Id, String Result, String ResponseTime, String StatusCode, String ErrorCode, String ErrorMessage, String Environment, String Version, String path) in C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\PMD\Utilities\CreateCSV.cs:line 12" />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="2642456" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

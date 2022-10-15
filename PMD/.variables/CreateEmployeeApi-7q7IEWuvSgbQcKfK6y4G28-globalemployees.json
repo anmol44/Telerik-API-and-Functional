@@ -1,1 +1,0 @@
-{"Count":0,"Skip":0,"Take":0,"Results":[],"Errors":[{"Code":"0041","Message":"A forbidden special character has been included for the field LastName. Please delete it from the field in order to continue.","Properties":[],"MemberNames":["LastName"]}]}

@@ -4,6 +4,7 @@
     "PrintBody.cs",
     "CreateExcel.cs",
     "DataToExcel.cs",
-    "JsonExtensions.cs"
+    "JsonExtensions.cs",
+    "CreateCSV.cs"
   ]
 }
