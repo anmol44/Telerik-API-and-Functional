@@ -4,4 +4,24 @@
     <OpenItemType>TestFile</OpenItemType>
     <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\ATC\MasterRun.tstest</Path>
   </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\ATC\LoginToApp.tstest</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\ATC\CreationModificationRequest.tstest</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\Demo8.tstest</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>CodeFile</OpenItemType>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\Demo8.tstest.cs</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\LoadSMD.tstest</Path>
+  </OpenItem>
 </ArrayOfOpenItem>

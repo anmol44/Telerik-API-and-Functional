@@ -8,6 +8,7 @@
   "skipCertificateValidation": false,
   "variables": {
     "base-url": "https://{{env}}.salarycostsapi.is.ssg/api/{{version}}/SalaryCosts",
-    "path": "C:\\Users\\anchaudhary\\Documents\\Test Studio Projects\\Indus-PerformancesMeasurements\\PMD\\Output"
+    "path": "C:\\Users\\anchaudhary\\Documents\\Test Studio Projects\\Indus-PerformancesMeasurements\\PMD\\Output",
+    "dateAndTime": null
   }
 }

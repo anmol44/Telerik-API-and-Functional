@@ -1,0 +1,16 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION
+1,26424,FALSE,1061,404,"0001
+","La ressource n'existe pas.
+",arc,v1.1.0
+2,30730,FALSE,410,404,"0001
+","La ressource n'existe pas.
+",arc,v1.1.0
+3,33793,FALSE,425,404,"0001
+","La ressource n'existe pas.
+",arc,v1.1.0
+4,102891,FALSE,416,404,"0001
+","La ressource n'existe pas.
+",arc,v1.1.0
+5,59260,FALSE,424,404,"0001
+","La ressource n'existe pas.
+",arc,v1.1.0

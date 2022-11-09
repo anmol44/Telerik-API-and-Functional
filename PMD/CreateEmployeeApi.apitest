@@ -75,10 +75,10 @@
         "key": "12jgB0OLeVjyzLQmkl71n0",
         "type": "verify",
         "properties": {
-          "SourceVariable": "inc",
+          "SourceVariable": "row",
           "SourcePathType": "none",
           "OperationType": "is-not-equal",
-          "Expectation": "{{length}}",
+          "Expectation": "10",
           "IgnoreCase": true
         }
       },
@@ -99,7 +99,9 @@
     "inc": "0",
     "json": " ",
     "extractValue": null,
-    "env": "klif",
-    "version": "v2"
+    "env": "arc",
+    "version": "v1",
+    "fileName": "\\\\CreateEmployeeAPI",
+    "row": "0"
   }
 }

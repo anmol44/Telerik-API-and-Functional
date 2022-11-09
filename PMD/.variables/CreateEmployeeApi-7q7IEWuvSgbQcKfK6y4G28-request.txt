@@ -1,0 +1,158 @@
+{
+	"EmployeeExtensionList": [
+		{
+			"IdMetadata": 5,
+			"StringValue": "Miss"
+		},
+		{
+			"IdMetadata": 7,
+			"NumberValue": 37.5
+		},
+		{
+			"IdMetadata": 6,
+			"StringValue": "C25"
+		},
+		{
+			"IdMetadata": 9,
+			"StringValue": "Y"
+		},
+		{
+			"IdMetadata": 8,
+			"NumberValue": 10000
+		},
+		{
+			"IdMetadata": 14,
+			"StringValue": "STDN_COPH"
+		},
+		{
+			"IdMetadata": 10,
+			"NumberValue": "null"
+		},
+		{
+			"IdMetadata": 11,
+			"NumberValue": "null"
+		},
+		{
+			"IdMetadata": 12,
+			"StringValue": ""
+		},
+		{
+			"IdMetadata": 13,
+			"StringValue": ""
+		}
+	],
+	"Employee": {
+		"EmployeeSummary": {
+			"OpeningAccessDate": "2022-07-12",
+			"ClosureAccessDate": "2032-10-20"
+		},
+		"EmployeeDetails": {
+			"IdPersonType": "1"
+		},
+		"EmployeeLocalHRList": [
+			{
+				"IdLocalHR": "999447",
+				"IdLocalHRSource": "1",
+				"LocalHRStartDate": "2022-07-12",
+				"LocalHREndDate": "2032-10-20"
+			}
+		]
+	},
+	"ProfessionalContactInformation": {
+		"ProfessionalContactInformationSummary": {
+			"IsVip": null
+		}
+	},
+	"Person": {
+		"PersonSummary": {
+			"LastName": "tappu8",
+			"FirstName": "Tinaøad"
+		},
+		"PersonalInformation": {
+			"Gender": "M",
+			"PreferredLastName": "CCCZZZZ",
+			"PreferredFirstName": "Tinaøad",
+			"BirthDate": "1995-12-14"
+		},
+		"AddressList": [
+			{
+				"ZipCode": ".",
+				"City": ".",
+				"Country": "13"
+			}
+		]
+	},
+	"ContractList": [
+		{
+			"IdContractType": "2",
+			"IdContractNature": "1",
+			"IdTerminationReason": "2",
+			"ContractStartDate": "2022-07-12",
+			"ContractEndDate": "2032-10-20",
+			"DurationOfTrialPeriod": "0",
+			"IdContractLocalHR": "9876522",
+			"IdUnitOfTrialPeriod": "1",
+			"ReHireContractManagement": "True"
+		}
+	],
+	"EmploymentRateList": [
+		{
+			"EmploymentRatePayroll": "100",
+			"EmploymentRate": "100",
+			"StartDate": "2022-07-12",
+			"EndDate": "2032-10-20"
+		}
+	],
+	"EmployeeAllocationList": [
+		{
+			"IdBusinessUnit": "2351",
+			"IdCompany": "219",
+			"IdAdministrativeSite": "1210",
+			"StartDate": "2022-07-12",
+			"EndDate": "2032-10-20"
+		}
+	],
+	"Salary": {
+		"SalarySummaryList": [
+			{
+				"NumberOfPayrollPerYear": "12",
+				"SalaryStartDate": "2022-07-12",
+				"SalaryEndDate": "2032-10-20",
+				"IdCurrency": "14",
+				"FullTimeGrossSalary": "38160"
+			}
+		],
+		"PayrollStatusList": [
+			{
+				"IdPayrollStatus": "1",
+				"PayrollStatusStartDate": "2022-07-12",
+				"PayrollStatusEndDate": "2032-10-20"
+			}
+		]
+	},
+	"OFAData": {
+		"DepartmentCode": "DPA098"
+	},
+	"LineManagerList": [
+		{
+			"IdPersonLineManager": "89717",
+			"LineManagerStartDate": "2022-07-12",
+			"LineManagerEndDate": "2032-10-20"
+		}
+	],
+	"Employment": {
+		"EmploymentCodeList": [
+			{
+				"EmploymentCodeStartDate": "2022-07-12",
+				"EmploymentCodeEndDate": "2032-10-20"
+			}
+		]
+	},
+	"GlobalCareerFrameworkList": [
+		{
+			"IdJobType": "472",
+			"EndDate": "2032-10-20",
+			"StartDate": "2022-07-12"
+		}
+	]
+}

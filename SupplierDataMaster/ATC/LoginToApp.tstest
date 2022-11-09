@@ -18,7 +18,7 @@
           "__value": {
             "Runtime ID": "0dafdd10-389d-4a1c-aad0-b569eac42e73",
             "Description": "Navigate to : 'https://arc.sd.is.ssg/'",
-            "CustomDescription": null,
+            "CustomDescription": "[LoginToApp_CodedStep] : Navigate to : 'https://arc.sd.is.ssg/'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
@@ -715,6 +715,51 @@
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginToAppvl4bic5z.gfi",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "cb386f5c-39f0-4bfd-88b3-e08a2eb9492d",
+            "Description": "Navigate to : 'https://arc.sd.is.ssg/'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "https://arc.sd.is.ssg/",
+                "BaseUrl": "",
+                "SearchByImageFirst": 0,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 10,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginToAppzjbbqnnf.jdv",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

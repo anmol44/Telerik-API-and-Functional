@@ -1,0 +1,39 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION
+1,26424,PASS,2899,200,"","",arc,v1
+2,30730,PASS,2117,200,"","",arc,v1
+3,33793,FALSE,1857,200,"0358
+0360
+0362
+","The salary tax rate must be greater than 0.
+The salary start date must be between the opening access date and the closure access date.
+Cannot find a payroll employment rate on the salary start date.
+",arc,v1
+4,102891,PASS,1869,200,"","",arc,v1
+5,59260,PASS,1893,200,"","",arc,v1
+6,60393,FALSE,1545,200,"0358
+0360
+0362
+","The salary tax rate must be greater than 0.
+The salary start date must be between the opening access date and the closure access date.
+Cannot find a payroll employment rate on the salary start date.
+",arc,v1
+7,112142,PASS,1731,200,"","",arc,v1
+8,112174,PASS,2072,200,"","",arc,v1
+9,112396,PASS,2283,200,"","",arc,v1
+10,176447,PASS,2327,200,"","",arc,v1
+11,129877,PASS,2948,200,"","",arc,v1
+12,174711,PASS,2023,200,"","",arc,v1
+13,179106,PASS,2041,200,"","",arc,v1
+14,135231,PASS,2049,200,"","",arc,v1
+15,189384,PASS,2057,200,"","",arc,v1
+16,191829,FALSE,1943,200,"0358
+0360
+0362
+","The salary tax rate must be greater than 0.
+The salary start date must be between the opening access date and the closure access date.
+Cannot find a payroll employment rate on the salary start date.
+",arc,v1
+17,210490,PASS,2057,200,"","",arc,v1
+18,233334,PASS,2017,200,"","",arc,v1
+19,236829,PASS,1893,200,"","",arc,v1
+20,257356,PASS,1857,200,"","",arc,v1

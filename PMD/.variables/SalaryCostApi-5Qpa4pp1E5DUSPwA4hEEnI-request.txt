@@ -1,5 +1,5 @@
 {
-	"IdPerson": "59260",
+	"IdPerson": "257356",
 	"IdCurrency": 15,
 	"Year": 2022,
 	"Month": 7,
@@ -13,4 +13,5 @@
 	"YearlyBonus": 6000.66,
 	"PreviousYearRegulationBonus": 5000.55,
 	"YearlyBonusYear": 2022
+	
 }

@@ -15,7 +15,7 @@ namespace APIAutomation
     {				
 	public void TestMethod()
 		{
-			String[] lastnames ={"2642456", "30730","33793", "102891", "59260", "60393", "112142", "112174", "112396", "176447", "129877", "174711", "179106", "135231", "189384", "191829", "210490", "233334", "236829", "257356"};	
+			String[] lastnames ={"26424", "30730","33793", "102891", "59260", "60393", "112142", "112174", "112396", "176447", "129877", "174711", "179106", "135231", "189384", "191829", "210490", "233334", "236829", "257356"};	
 		   // int length = lastnames.GetLength(0);
 			int loopTest = 3000;
 			int arrayLength = lastnames.GetLength(0);
@@ -84,7 +84,7 @@ namespace APIAutomation
 		    string env ="";
 		    string vers = "";
 		    string fileName = "";
-			
+		    string dateandtime = "";			
 			//path of file
 			path  =  this.Context.GetValue("path").ToString();
 		    
@@ -109,6 +109,9 @@ namespace APIAutomation
 		
 		    // environment of test
 		    vers =  this.Context.GetValue("version").ToString();
+		
+		    // get date and time of starting test 
+		    dateandtime = this.Context.GetValue("dateAndTime").ToString();
 			
 		    string body = this.Context.GetValue("Body").ToString();
 			JObject j = JObject.Parse(body);
@@ -141,7 +144,7 @@ namespace APIAutomation
 			      }	
 			 
 			//DataToExcel.createDataExcelFile(path,"salaryApi",row,id,result,responseTime,statusCode,code,errors,env,vers);		
-		   CreateCSV.addrecord(row,id,result,responseTime,statusCode,code,errors,env,vers,path.ToString()+fileName.ToString());
+		   CreateCSV.addrecord(row,id,result,responseTime,statusCode,code,errors,env,vers,path.ToString()+fileName.ToString()+dateandtime+".csv");
 			this.Log.WriteLine(errors);			
 		}
 		
@@ -154,10 +157,11 @@ namespace APIAutomation
 		}
 		
 		
-		// This method will execute before the start of the test case
-		public override void OnBeforeTestStarted()
-			// @Anmol chaudhary
+	// This method will execute before the start of the test case
+	public override void OnBeforeTestStarted()
+	// @Anmol chaudhary
 			{
+			 string dateandtime = "";
 			 string value="";
 			 string path="";
 			 string fileName="";
@@ -167,6 +171,10 @@ namespace APIAutomation
 			 // name of File
 		    fileName = this.Context.GetValue("fileName").ToString();
 		//	CreateExcel.createExcel("salaryApi" ,path.ToString());
+				
+				dateandtime  = DateTime.Now.ToString("_ddMMyyyy_hh_mm_ss");
+				this.Log.WriteLine("Time of starting Test :: "+dateandtime);
+				this.Context.SetValue("dateAndTime",dateandtime);
 				
 		// File Handling.		
 				try{
@@ -179,7 +187,7 @@ namespace APIAutomation
 					this.Log.WriteLine("Regarding file :: " +e.Message.ToString());
 				}
 			
-		    CreateCSV.addrecord("SERIAL NUMBER","ID","RESULT","RESPONSE TIME","STATUS CODE","ERROR CODE","ERROR MESSAGE","ENVIRONMENT","VERSION",path.ToString()+fileName.ToString());
+		    CreateCSV.addrecord("SERIAL NUMBER","ID","RESULT","RESPONSE TIME","STATUS CODE","ERROR CODE","ERROR MESSAGE","ENVIRONMENT","VERSION",path.ToString()+fileName.ToString()+dateandtime+".csv");
 			}
 
 // This method will execute after all test steps in the test case have ended
@@ -189,6 +197,7 @@ namespace APIAutomation
 		//	string value ="";
 		//	string path = "";
 		    this.Log.WriteLine("Ending the test case ...");
+			
 		//	this.Count();
 		//	this.responseTime();	
 		//	path  =  this.Context.GetValue("path").ToString();	
