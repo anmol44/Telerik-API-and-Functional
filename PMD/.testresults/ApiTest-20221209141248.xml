@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="1261" total="1">
+  <tests>
+    <test key=".\GetEmployee-direct-call" name="GetEmployee-direct-call" outcome="failed" time="834">
+      <step id="2YNMAVi0DVdcFF8929mldL" name="setLoop" outcome="passed" time="32">
+        <action id="6kNQMfLFMtwYTvgA7K74gm" type="coded-step" outcome="passed" time="21" />
+      </step>
+      <step id="1EgNTIYf7IUKEAiJqnOHhs" name="Http Request" outcome="passed" time="757">
+        <action id="4QvGvLYuWaDFExRFypHMDP" type="http-request" outcome="passed" time="756" />
+      </step>
+      <step id="7Gemr3OgzFP81KsIOTvCj3" name="Result" outcome="failed" time="22">
+        <action id="2QctOyEMy5UbSw4hUnRRmZ" type="coded-step" outcome="failed" time="22">
+          <error message="Unexpected character encountered while parsing value: &lt;. Path '', line 0, position 0." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _09122022_07_42_48" />
+    <output message="File Not Find" />
+    <output message="Executing HTTP Request: GET https://arc.pmdapi.is.ssg/api/v2/employees?page=1&amp;pageSize=100" />
+    <output message="Response received with status code: 404 Not Found" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

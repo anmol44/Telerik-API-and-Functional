@@ -1,0 +1,40 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION
+1,176522,FALSE,2590,200,"0363
+","The currency of an employee's salary must be consistent with his / her company's currency settings.
+",arc,v1
+2,26424,PASS,1983,200,"","",arc,v1
+3,30730,PASS,2084,200,"","",arc,v1
+4,216565,PASS,1823,200,"","",arc,v1
+5,102891,PASS,1875,200,"","",arc,v1
+6,59260,PASS,1904,200,"","",arc,v1
+7,255966,PASS,1802,200,"","",arc,v1
+8,112142,PASS,1846,200,"","",arc,v1
+9,112174,PASS,1639,200,"","",arc,v1
+10,112396,PASS,1476,200,"","",arc,v1
+11,176447,PASS,1366,200,"","",arc,v1
+12,129877,PASS,1427,200,"","",arc,v1
+13,174711,PASS,1359,200,"","",arc,v1
+14,179106,PASS,1416,200,"","",arc,v1
+15,135231,PASS,1395,200,"","",arc,v1
+16,189384,PASS,1420,200,"","",arc,v1
+17,276466,PASS,1342,200,"","",arc,v1
+18,210490,PASS,1466,200,"","",arc,v1
+19,233334,PASS,1368,200,"","",arc,v1
+20,236829,PASS,1313,200,"","",arc,v1
+21,257356,PASS,1327,200,"","",arc,v1
+22,176522,FALSE,1408,200,"0363
+","The currency of an employee's salary must be consistent with his / her company's currency settings.
+",arc,v1
+23,26424,PASS,1693,200,"","",arc,v1
+24,30730,PASS,1749,200,"","",arc,v1
+25,216565,PASS,1347,200,"","",arc,v1
+26,102891,PASS,1518,200,"","",arc,v1
+27,59260,PASS,1484,200,"","",arc,v1
+28,255966,PASS,1388,200,"","",arc,v1
+29,112142,PASS,1420,200,"","",arc,v1
+30,112174,PASS,1321,200,"","",arc,v1
+31,112396,PASS,1355,200,"","",arc,v1
+32,176447,PASS,1299,200,"","",arc,v1
+33,129877,PASS,1523,200,"","",arc,v1
+34,174711,PASS,1403,200,"","",arc,v1
+35,179106,PASS,1479,200,"","",arc,v1

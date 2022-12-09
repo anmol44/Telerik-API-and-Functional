@@ -1,0 +1,82 @@
+{
+  "$version": "test-case/v1",
+  "className": "PMD.GetEmployee_direct_call",
+  "steps": [
+    {
+      "key": "2YNMAVi0DVdcFF8929mldL",
+      "name": "setLoop",
+      "action": {
+        "key": "6kNQMfLFMtwYTvgA7K74gm",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "TestMethod"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "1EgNTIYf7IUKEAiJqnOHhs",
+      "name": "Http Request",
+      "condition": {
+        "key": "4y5Gmc4r74JjOdEtV7pUWt",
+        "type": "verify",
+        "ignored": true,
+        "properties": {
+          "SourcePathType": "none",
+          "OperationType": "is-equal",
+          "Expectation": ""
+        }
+      },
+      "action": {
+        "key": "4QvGvLYuWaDFExRFypHMDP",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Body": "{\"Content\":null,\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "{{base-url-direct}}",
+          "Timeout": 20000
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "7Gemr3OgzFP81KsIOTvCj3",
+      "name": "Result",
+      "action": {
+        "key": "2QctOyEMy5UbSw4hUnRRmZ",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "ResultToExcel"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "1Lx9lFKdyvFm3DRfnITxfZ",
+      "name": "Loop",
+      "condition": {
+        "key": "1InEFrkqQGGv4TgL5TCSl0",
+        "type": "verify",
+        "properties": {
+          "SourceVariable": "loop",
+          "SourcePathType": "none",
+          "OperationType": "is-not-equal",
+          "Expectation": "{{loop-value}}"
+        }
+      },
+      "action": {
+        "key": "bnN0vNUtKSESo9VjLIhdS",
+        "type": "goto",
+        "properties": {
+          "StepKey": "2YNMAVi0DVdcFF8929mldL"
+        }
+      },
+      "verifications": []
+    }
+  ],
+  "variables": {
+    "loop": "0",
+    "fileName": "\\\\GetEmployee-direct-call",
+    "row": "0"
+  }
+}

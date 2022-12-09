@@ -4,6 +4,8 @@
     "SalaryCostApi.apitest",
     "CreateEmployeeApi.apitest",
     "Utilities",
-    "Output"
+    "Output",
+    "GetEmployee-direct-call.apitest",
+    "GetEmployee-apim.apitest"
   ]
 }

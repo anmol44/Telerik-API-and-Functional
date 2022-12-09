@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="560" total="1">
+  <tests>
+    <test key=".\GetEmployee-apim" name="GetEmployee-apim" outcome="failed" time="90">
+      <step id="7kjabyq6myR4RavMkSudyI" name="setLoop" outcome="failed" time="42">
+        <action id="73HUWBltNOoVmafdDzs49U" type="coded-step" outcome="failed" time="33">
+          <error message="Object reference not set to an instance of an object." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _07122022_07_00_29" />
+    <output message="File Not Find" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

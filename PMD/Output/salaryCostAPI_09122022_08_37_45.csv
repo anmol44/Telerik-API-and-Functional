@@ -1,0 +1,436 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION
+1,176522,FALSE,20009,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+2,26424,FALSE,331,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+3,30730,FALSE,484,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+4,216565,FALSE,359,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+5,102891,FALSE,371,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+6,59260,FALSE,383,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+7,255966,FALSE,422,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+8,112142,FALSE,424,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+9,112174,FALSE,426,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+10,112396,FALSE,448,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+11,176447,FALSE,502,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+12,129877,FALSE,464,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+13,174711,FALSE,468,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+14,179106,FALSE,457,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+15,135231,FALSE,484,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+16,189384,FALSE,490,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+17,276466,FALSE,500,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+18,210490,FALSE,566,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+19,233334,FALSE,488,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+20,236829,FALSE,515,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+21,257356,FALSE,530,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+22,176522,FALSE,637,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+23,26424,FALSE,541,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+24,30730,FALSE,552,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+25,216565,FALSE,586,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+26,102891,FALSE,623,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+27,59260,FALSE,601,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+28,255966,FALSE,621,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+29,112142,FALSE,646,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+30,112174,FALSE,575,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+31,112396,FALSE,575,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+32,176447,FALSE,584,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+33,129877,FALSE,603,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+34,174711,FALSE,599,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+35,179106,FALSE,608,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+36,135231,FALSE,617,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+37,189384,FALSE,732,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+38,276466,FALSE,624,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+39,210490,FALSE,623,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+40,233334,FALSE,612,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+41,236829,FALSE,623,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+42,257356,FALSE,643,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+43,176522,FALSE,654,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+44,26424,FALSE,649,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+45,30730,FALSE,683,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+46,216565,FALSE,683,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+47,102891,FALSE,663,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+48,59260,FALSE,633,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+49,255966,FALSE,648,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+50,112142,FALSE,609,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+51,112174,FALSE,612,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+52,112396,FALSE,599,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+53,176447,FALSE,605,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+54,129877,FALSE,618,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+55,174711,FALSE,652,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+56,179106,FALSE,619,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+57,135231,FALSE,596,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+58,189384,FALSE,572,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+59,276466,FALSE,603,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+60,210490,FALSE,616,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+61,233334,FALSE,637,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+62,236829,FALSE,600,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+63,257356,FALSE,595,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+64,176522,FALSE,603,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+65,26424,FALSE,604,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+66,30730,FALSE,592,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+67,216565,FALSE,604,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+68,102891,FALSE,586,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+69,59260,FALSE,622,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+70,255966,FALSE,650,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+71,112142,FALSE,629,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+72,112174,FALSE,589,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+73,112396,FALSE,621,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+74,176447,FALSE,603,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+75,129877,FALSE,607,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+76,174711,FALSE,609,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+77,179106,FALSE,627,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+78,135231,FALSE,613,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+79,189384,FALSE,632,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+80,276466,FALSE,621,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+81,210490,FALSE,626,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+82,233334,FALSE,618,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+83,236829,FALSE,641,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+84,257356,FALSE,622,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+85,176522,FALSE,630,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+86,26424,FALSE,642,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+87,30730,FALSE,637,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+88,216565,FALSE,879,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+89,102891,FALSE,659,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+90,59260,FALSE,639,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+91,255966,FALSE,656,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+92,112142,FALSE,660,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+93,112174,FALSE,721,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+94,112396,FALSE,743,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+95,176447,FALSE,731,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+96,129877,FALSE,690,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+97,174711,FALSE,672,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+98,179106,FALSE,668,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+99,135231,FALSE,656,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+100,189384,FALSE,648,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+101,276466,FALSE,663,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+102,210490,FALSE,663,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+103,233334,FALSE,701,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+104,236829,FALSE,690,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+105,257356,FALSE,686,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+106,176522,FALSE,677,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+107,26424,FALSE,829,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+108,30730,FALSE,716,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+109,216565,FALSE,729,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+110,102891,FALSE,714,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+111,59260,FALSE,683,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+112,255966,FALSE,701,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+113,112142,FALSE,697,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+114,112174,FALSE,706,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+115,112396,FALSE,694,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+116,176447,FALSE,701,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+117,129877,FALSE,694,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+118,174711,FALSE,690,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+119,179106,FALSE,693,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+120,135231,FALSE,754,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+121,189384,FALSE,740,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+122,276466,FALSE,714,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+123,210490,FALSE,747,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+124,233334,FALSE,740,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+125,236829,FALSE,729,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+126,257356,FALSE,719,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+127,176522,FALSE,776,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+128,26424,FALSE,756,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+129,30730,FALSE,745,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+130,216565,FALSE,734,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+131,102891,FALSE,763,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+132,59260,FALSE,807,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+133,255966,FALSE,751,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+134,112142,FALSE,759,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+135,112174,FALSE,737,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+136,112396,FALSE,756,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+137,176447,FALSE,745,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+138,129877,FALSE,784,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+139,174711,FALSE,780,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+140,179106,FALSE,771,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+141,135231,FALSE,778,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+142,189384,FALSE,806,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+143,276466,FALSE,783,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+144,210490,FALSE,805,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1
+145,233334,FALSE,795,500,"0005
+","Une exception critique a été levée durant le traitement.
+",arc,v1

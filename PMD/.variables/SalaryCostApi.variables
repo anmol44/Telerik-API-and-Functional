@@ -1,0 +1,34 @@
+{
+  "$version": "runtime-variables/v1",
+  "scopes": {
+    "7jBdhd1HWHjbBwo9mV3KZc": {
+      "variables": {
+        "RequestUrl": "https://arc.pmdapi.is.ssg/api/v1/employees?page=1&pageSize=100",
+        "RequestVerb": "GET",
+        "RequestHeaders": {"Content-Type":"application/json","User-Agent":"Telerik Test Studio for APIs","Host":"arc.pmdapi.is.ssg","Connection":"Keep-Alive"},
+        "RequestBody": null,
+        "RequestCookies": [],
+        "StatusCode": 200,
+        "Headers": {"Pragma":"no-cache","Content-Length":"30689","Cache-Control":"no-cache","Content-Type":"application/json; charset=utf-8","Date":"Tue, 06 Dec 2022 05:37:36 GMT","Expires":"-1","Server":"Microsoft-IIS/10.0","X-AspNet-Version":"4.0.30319","X-Powered-By":"ASP.NET"},
+        "Body": {"Content":"eyJDb3VudCI6MjI5MTU4LCJTa2lwIjowLCJUYWtlIjowLCJSZXN1bHRzIjpbeyJFbXBsb3llZVN1bW1hcnkiOnsiSWRFbXBsb3llZSI6MCwiSWRQZXJzb24iOjk3MTAsIlBlcnNvbk51bWJlciI6MCwiT3BlbmluZ0FjY2Vzc0RhdGUiOiIyMDAwLTEyLTMxVDAwOjAwOjAwIiwiQ2xvc3VyZUFjY2Vzc0RhdGUiOm51bGx9LCJFbXBsb3llZURldGFpbHMiOnsiSWRFbXBsb3llZSI6MCwiSWRQZXJzb25UeXBlIjoxLCJJc0ludGVyaW0iOmZhbHNlLCJJc1NvcHJhU3RlcmlhR3JvdXAiOmZhbHNlLCJJc05vU2hvd0VtcGxveWVlIjpmYWxzZX0sIkVtcGxveWVlTG9jYWxIUkxpc3QiOltdfSx7IkVtcGxveWVlU3VtbWFyeSI6eyJJZEVtcGxveWVlIjoxLCJJZFBlcnNvbiI6MTU3MSwiUGVyc29uTnVtYmVyIjoxLCJPcGVuaW5nQWNjZXNzRGF0ZSI6IjE5NjgtMDktMDFUMDA6MDA6MDAiLCJDbG9zdXJlQWNjZXNzRGF0ZSI6IjIwMDMtMDktMDFUMDA6MDA6MDAifSwiRW1wbG95ZWVEZXRhaWxzIjp7IklkRW1wbG95ZWUiOjEsIklkUGVyc29uVHlwZSI6MSwiSXNJbnRlcmltIjpmYWxzZSwiSXNTb3ByYVN0ZXJpYUdyb3VwIjpmYWxzZSwiSXNOb1Nob3dFbXBsb3llZSI6ZmFsc2V9LCJFbXBsb3llZUxvY2FsSFJMaXN0IjpbXX0seyJFbXBsb3llZVN1bW1hcnkiOnsiSWRFbXBsb3llZSI6OSwiSWRQZXJzb24iOjIzOCwiUGVyc29uTnVtYmVyIjo5LCJPcGVuaW5nQWNjZXNzRGF0ZSI6IjE5ODItMTEtMDhUMDA6MDA6MDAiLCJDbG9zdXJlQWNjZXNzRGF0ZSI6IjE5OTktMDMtMzFUMDA6MDA6MDAifSwiRW1wbG95ZWVEZXRhaWxzIjp7IklkRW1wbG95ZWUiOjksIklkUGVyc29uVHlwZSI6MSwiSXNJbnRlcmltIjpmYWxzZSwiSXNTb3ByYVN0ZXJpYUdyb3VwIjpmYWxzZSwiSXNOb1Nob3dFbXBsb3llZSI6ZmFsc2V9LCJFbXBsb3llZUxvY2FsSFJMaXN0IjpbXX0seyJFbXBsb3llZVN1bW1hcnkiOnsiSWRFbXBsb3llZSI6MTQsIklkUGVyc29uIjoxMjkwOSwiUGVyc29uTnVtYmVyIjoxNA==","FilePath":".\\SalaryCostApi-5Qpa4pp1E5DUSPwA4hEEnI-employees.json","Mode":"binary"},
+        "ResponseTime": 969,
+        "ReasonPhrase": "OK"
+      }
+    },
+    ".\\SalaryCostApi": {
+      "variables": {
+        "dateAndTime": "_06122022_11_07_35",
+        "RequestUrl": "https://arc.pmdapi.is.ssg/api/v1/employees?page=1&pageSize=100",
+        "RequestVerb": "GET",
+        "RequestHeaders": {"Content-Type":"application/json","User-Agent":"Telerik Test Studio for APIs","Host":"arc.pmdapi.is.ssg","Connection":"Keep-Alive"},
+        "RequestBody": null,
+        "RequestCookies": [],
+        "StatusCode": 200,
+        "Headers": {"Pragma":"no-cache","Content-Length":"30689","Cache-Control":"no-cache","Content-Type":"application/json; charset=utf-8","Date":"Tue, 06 Dec 2022 05:37:36 GMT","Expires":"-1","Server":"Microsoft-IIS/10.0","X-AspNet-Version":"4.0.30319","X-Powered-By":"ASP.NET"},
+        "Body": {"Content":"eyJDb3VudCI6MjI5MTU4LCJTa2lwIjowLCJUYWtlIjowLCJSZXN1bHRzIjpbeyJFbXBsb3llZVN1bW1hcnkiOnsiSWRFbXBsb3llZSI6MCwiSWRQZXJzb24iOjk3MTAsIlBlcnNvbk51bWJlciI6MCwiT3BlbmluZ0FjY2Vzc0RhdGUiOiIyMDAwLTEyLTMxVDAwOjAwOjAwIiwiQ2xvc3VyZUFjY2Vzc0RhdGUiOm51bGx9LCJFbXBsb3llZURldGFpbHMiOnsiSWRFbXBsb3llZSI6MCwiSWRQZXJzb25UeXBlIjoxLCJJc0ludGVyaW0iOmZhbHNlLCJJc1NvcHJhU3RlcmlhR3JvdXAiOmZhbHNlLCJJc05vU2hvd0VtcGxveWVlIjpmYWxzZX0sIkVtcGxveWVlTG9jYWxIUkxpc3QiOltdfSx7IkVtcGxveWVlU3VtbWFyeSI6eyJJZEVtcGxveWVlIjoxLCJJZFBlcnNvbiI6MTU3MSwiUGVyc29uTnVtYmVyIjoxLCJPcGVuaW5nQWNjZXNzRGF0ZSI6IjE5NjgtMDktMDFUMDA6MDA6MDAiLCJDbG9zdXJlQWNjZXNzRGF0ZSI6IjIwMDMtMDktMDFUMDA6MDA6MDAifSwiRW1wbG95ZWVEZXRhaWxzIjp7IklkRW1wbG95ZWUiOjEsIklkUGVyc29uVHlwZSI6MSwiSXNJbnRlcmltIjpmYWxzZSwiSXNTb3ByYVN0ZXJpYUdyb3VwIjpmYWxzZSwiSXNOb1Nob3dFbXBsb3llZSI6ZmFsc2V9LCJFbXBsb3llZUxvY2FsSFJMaXN0IjpbXX0seyJFbXBsb3llZVN1bW1hcnkiOnsiSWRFbXBsb3llZSI6OSwiSWRQZXJzb24iOjIzOCwiUGVyc29uTnVtYmVyIjo5LCJPcGVuaW5nQWNjZXNzRGF0ZSI6IjE5ODItMTEtMDhUMDA6MDA6MDAiLCJDbG9zdXJlQWNjZXNzRGF0ZSI6IjE5OTktMDMtMzFUMDA6MDA6MDAifSwiRW1wbG95ZWVEZXRhaWxzIjp7IklkRW1wbG95ZWUiOjksIklkUGVyc29uVHlwZSI6MSwiSXNJbnRlcmltIjpmYWxzZSwiSXNTb3ByYVN0ZXJpYUdyb3VwIjpmYWxzZSwiSXNOb1Nob3dFbXBsb3llZSI6ZmFsc2V9LCJFbXBsb3llZUxvY2FsSFJMaXN0IjpbXX0seyJFbXBsb3llZVN1bW1hcnkiOnsiSWRFbXBsb3llZSI6MTQsIklkUGVyc29uIjoxMjkwOSwiUGVyc29uTnVtYmVyIjoxNA==","FilePath":".\\SalaryCostApi-5Qpa4pp1E5DUSPwA4hEEnI-employees.json","Mode":"binary"},
+        "ResponseTime": 969,
+        "ReasonPhrase": "OK"
+      }
+    }
+  }
+}

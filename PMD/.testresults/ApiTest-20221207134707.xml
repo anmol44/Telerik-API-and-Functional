@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="1781" total="1">
+  <tests>
+    <test key=".\GetEmployee-apim" name="GetEmployee-apim" outcome="failed" time="1226">
+      <step id="7kjabyq6myR4RavMkSudyI" name="setLoop" outcome="passed" time="43">
+        <action id="73HUWBltNOoVmafdDzs49U" type="coded-step" outcome="passed" time="32" />
+      </step>
+      <step id="2s54NkqZTq3xxDgckLOeSb" name="Http Request" outcome="passed" time="992">
+        <action id="6K6xy0h4YpTHL2h1Vj7iJj" type="http-request" outcome="passed" time="992" />
+      </step>
+      <step id="uVIUbqhJBBzvA4hN3GlnQ" name="Result" outcome="passed" time="127">
+        <action id="1s2X4R8HzsnEYkFkVcJ4WF" type="coded-step" outcome="passed" time="127" />
+      </step>
+      <step id="3VoobbojXe9ZNP3cnKQgLO" name="Loop" outcome="failed" time="14">
+        <action id="bxAvC6cS4r0ZSDFJ8wbu0" type="verify" outcome="true" time="9" />
+        <action id="CUMZgWoa19NFhsQgzp0nX" type="goto" outcome="failed" time="5">
+          <error message="Cannot find Test Step with Key=." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _07122022_07_17_08" />
+    <output message="File Not Find" />
+    <output message="Executing HTTP Request: GET https://dev.api.is.ssg:8065/arc/pmdapi/api/v1/employees?page=1&amp;pageSize=100" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

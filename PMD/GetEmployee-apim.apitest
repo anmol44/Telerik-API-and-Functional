@@ -1,0 +1,73 @@
+{
+  "$version": "test-case/v1",
+  "className": "PMD.GetEmployee_apim",
+  "steps": [
+    {
+      "key": "7kjabyq6myR4RavMkSudyI",
+      "name": "setLoop",
+      "action": {
+        "key": "73HUWBltNOoVmafdDzs49U",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "TestMethod"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "2s54NkqZTq3xxDgckLOeSb",
+      "name": "Http Request",
+      "action": {
+        "key": "6K6xy0h4YpTHL2h1Vj7iJj",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Body": "{\"Content\":null,\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "{{base-url-apim}}",
+          "Authorization": "{\"mode\":\"basic\",\"properties\":{\"username\":\"4a9fa224-7667-428e-9fb5-f0050637553a\",\"password\":\"0c5a1679-4bf2-4f88-bc6d-d3af06f17ff5\",\"properties\":{}}}",
+          "Timeout": 20000
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "uVIUbqhJBBzvA4hN3GlnQ",
+      "name": "Result",
+      "action": {
+        "key": "1s2X4R8HzsnEYkFkVcJ4WF",
+        "type": "coded-step",
+        "properties": {
+          "TestMethod": "ResultToExcel"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "3VoobbojXe9ZNP3cnKQgLO",
+      "name": "Loop",
+      "condition": {
+        "key": "bxAvC6cS4r0ZSDFJ8wbu0",
+        "type": "verify",
+        "properties": {
+          "SourceVariable": "loop",
+          "SourcePathType": "none",
+          "OperationType": "is-not-equal",
+          "Expectation": "{{loop-value}}"
+        }
+      },
+      "action": {
+        "key": "CUMZgWoa19NFhsQgzp0nX",
+        "type": "goto",
+        "properties": {
+          "StepKey": "7kjabyq6myR4RavMkSudyI"
+        }
+      },
+      "verifications": []
+    }
+  ],
+  "variables": {
+    "loop": "0",
+    "fileName": "\\\\GetEmployee-apim",
+    "row": "0"
+  }
+}

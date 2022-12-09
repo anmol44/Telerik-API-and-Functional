@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="21091" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="20565">
+      <step id="5erTiX6FiI0ZwnWyljT8Sl" name="CreateId" outcome="passed" time="47">
+        <action id="2J6tsbc8viWtqwq8MTntZ6" type="coded-step" outcome="passed" time="38" />
+      </step>
+      <step id="7jBdhd1HWHjbBwo9mV3KZc" name="Http Request" outcome="failed" time="20464">
+        <action id="5Qpa4pp1E5DUSPwA4hEEnI" type="http-request" outcome="failed" time="20464">
+          <error message="The operation has timed-out." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _15112022_03_09_44" />
+    <output message="File Not Find" />
+    <output message="26424" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

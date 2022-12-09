@@ -1,0 +1,24 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION
+1,176522,FALSE,2186,200,"0363
+","The currency of an employee's salary must be consistent with his / her company's currency settings.
+",arc,v1
+2,26424,PASS,1694,200,"","",arc,v1
+3,30730,PASS,1730,200,"","",arc,v1
+4,216565,PASS,1457,200,"","",arc,v1
+5,102891,PASS,1597,200,"","",arc,v1
+6,59260,PASS,1541,200,"","",arc,v1
+7,255966,PASS,1408,200,"","",arc,v1
+8,112142,PASS,1433,200,"","",arc,v1
+9,112174,PASS,1467,200,"","",arc,v1
+10,112396,PASS,1551,200,"","",arc,v1
+11,176447,PASS,1529,200,"","",arc,v1
+12,129877,PASS,1535,200,"","",arc,v1
+13,174711,PASS,1449,200,"","",arc,v1
+14,179106,PASS,1498,200,"","",arc,v1
+15,135231,PASS,1557,200,"","",arc,v1
+16,189384,PASS,1513,200,"","",arc,v1
+17,276466,PASS,1651,200,"","",arc,v1
+18,210490,PASS,1531,200,"","",arc,v1
+19,233334,PASS,1451,200,"","",arc,v1
+20,236829,PASS,1570,200,"","",arc,v1
+21,257356,PASS,1545,200,"","",arc,v1

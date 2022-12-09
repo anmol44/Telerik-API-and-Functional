@@ -78,7 +78,7 @@
           "SourceVariable": "row",
           "SourcePathType": "none",
           "OperationType": "is-not-equal",
-          "Expectation": "10",
+          "Expectation": "{{loop-value}}",
           "IgnoreCase": true
         }
       },

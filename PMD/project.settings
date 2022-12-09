@@ -7,8 +7,13 @@
   ],
   "skipCertificateValidation": false,
   "variables": {
-    "base-url": "https://{{env}}.salarycostsapi.is.ssg/api/{{version}}/SalaryCosts",
+    "base-u": null,
     "path": "C:\\Users\\anchaudhary\\Documents\\Test Studio Projects\\Indus-PerformancesMeasurements\\PMD\\Output",
-    "dateAndTime": null
+    "dateAndTime": null,
+    "base-url-direct": "",
+    "base-url-apim": "https://dev.api.is.ssg:{{port}}/{{env}}/pmdapi/api/{{version}}/employees?page=1&pageSize=100",
+    "loop-value": "120",
+    "env": null,
+    "version": null
   }
 }

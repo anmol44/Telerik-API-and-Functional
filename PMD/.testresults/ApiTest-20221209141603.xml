@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="501" total="1">
+  <tests>
+    <test key=".\GetEmployee-direct-call" name="GetEmployee-direct-call" outcome="failed" time="87">
+      <step id="2YNMAVi0DVdcFF8929mldL" name="setLoop" outcome="passed" time="28">
+        <action id="6kNQMfLFMtwYTvgA7K74gm" type="coded-step" outcome="passed" time="19" />
+      </step>
+      <step id="1EgNTIYf7IUKEAiJqnOHhs" name="Http Request" outcome="failed" time="40">
+        <action id="4QvGvLYuWaDFExRFypHMDP" type="http-request" outcome="failed" time="39">
+          <error message="Invalid URI: The hostname could not be parsed." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _09122022_07_46_03" />
+    <output message="File Not Find" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>
