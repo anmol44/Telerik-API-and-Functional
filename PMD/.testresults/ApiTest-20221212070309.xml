@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="21201" total="1">
+  <tests>
+    <test key=".\GetEmployee-direct-call" name="GetEmployee-direct-call" outcome="failed" time="20306">
+      <step id="2YNMAVi0DVdcFF8929mldL" name="setLoop" outcome="passed" time="43">
+        <action id="6kNQMfLFMtwYTvgA7K74gm" type="coded-step" outcome="passed" time="33" />
+      </step>
+      <step id="1EgNTIYf7IUKEAiJqnOHhs" name="Http Request" outcome="failed" time="20193">
+        <action id="4QvGvLYuWaDFExRFypHMDP" type="http-request" outcome="failed" time="20193">
+          <error message="The operation has timed-out." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _12122022_12_33_10" />
+    <output message="URL :: https://arc.pmdapi.is.ssg/api/v1/employees?page=1" />
+    <output message="loop-value :: 15" />
+    <output message="File Not Find" />
+    <output message="Executing HTTP Request: GET https://arc.pmdapi.is.ssg/api/v1/employees?page=1" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

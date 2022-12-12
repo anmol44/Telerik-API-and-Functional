@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="780" total="1">
+  <tests>
+    <test key=".\GetEmployee-direct-call" name="GetEmployee-direct-call" outcome="failed" time="160">
+      <step id="2YNMAVi0DVdcFF8929mldL" name="setLoop" outcome="passed" time="49">
+        <action id="6kNQMfLFMtwYTvgA7K74gm" type="coded-step" outcome="passed" time="40" />
+      </step>
+      <step id="1EgNTIYf7IUKEAiJqnOHhs" name="Http Request" outcome="failed" time="34">
+        <action id="4QvGvLYuWaDFExRFypHMDP" type="http-request" outcome="failed" time="34">
+          <error message="Invalid URI: The URI is empty." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _12122022_01_26_56" />
+    <output message="URL :: " />
+    <output message="loop-value :: 200" />
+    <output message="File Not Find" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>
