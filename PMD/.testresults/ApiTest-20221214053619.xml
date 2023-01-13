@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="1198" total="1">
+  <tests>
+    <test key=".\GetEmployee-apim" name="GetEmployee-apim" outcome="failed" time="860">
+      <step id="2s54NkqZTq3xxDgckLOeSb" name="Http Request" outcome="failed" time="779">
+        <action id="6K6xy0h4YpTHL2h1Vj7iJj" type="http-request" outcome="passed" time="758" />
+        <action id="76RP3TA9ko50obkV9xwjSf" type="verify" outcome="failed" time="11">
+          <error message="Expected was '200'. Actual was '401'" />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _14122022_11_06_19" />
+    <output message="File Not Find" />
+    <output message="Executing HTTP Request: GET https://dev.api.is.ssg:8065/arc/pmdapi/api/v1/employees?page=1&amp;pageSize=100" />
+    <output message="Response received with status code: 401 Authentication required" />
+    <output message="Ending the test case ..." />
+    <output message="" />
+  </output>
+  <errors />
+</run>

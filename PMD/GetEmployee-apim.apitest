@@ -23,12 +23,26 @@
         "properties": {
           "Method": "GET",
           "Body": "{\"Content\":null,\"FilePath\":null,\"Mode\":\"raw\"}",
-          "Url": "{{base-url-apim}}",
-          "Authorization": "{\"mode\":\"basic\",\"properties\":{\"username\":\"4a9fa224-7667-428e-9fb5-f0050637553a\",\"password\":\"0c5a1679-4bf2-4f88-bc6d-d3af06f17ff5\",\"properties\":{}}}",
-          "Timeout": 20000
+          "Url": "https://dev.api.is.ssg:/arc/pmdapi/api/v1/employees?page=1&pageSize=100",
+          "Authorization": "{\"mode\":\"basic\",\"properties\":{\"username\":\"{{usernme}}\",\"password\":\"{{password}}\",\"properties\":{}}}",
+          "Timeout": 20000,
+          "Headers": "[]"
         }
       },
-      "verifications": []
+      "verifications": [
+        {
+          "key": "76RP3TA9ko50obkV9xwjSf",
+          "type": "verify",
+          "properties": {
+            "SourceVariable": "StatusCode",
+            "SourcePathType": "none",
+            "OperationType": "is-equal-number",
+            "Expectation": "200",
+            "IgnoreCase": false,
+            "SourcePath": null
+          }
+        }
+      ]
     },
     {
       "key": "uVIUbqhJBBzvA4hN3GlnQ",

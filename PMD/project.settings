@@ -7,13 +7,19 @@
   ],
   "skipCertificateValidation": false,
   "variables": {
-    "base-u": null,
+    "base-url": "https://{{env}}.salarycostsapi.is.ssg/api/{{version}}/SalaryCosts",
     "path": "C:\\Users\\anchaudhary\\Documents\\Test Studio Projects\\Indus-PerformancesMeasurements\\PMD\\Output",
     "dateAndTime": null,
     "base-url-direct": "",
     "base-url-apim": "https://dev.api.is.ssg:{{port}}/{{env}}/pmdapi/api/{{version}}/employees?page=1&pageSize=100",
-    "loop-value": "120",
-    "env": null,
-    "version": null
+    "loop-value": "2",
+    "port": "8065",
+    "env": "arc",
+    "version": "v1",
+    "username": "4a9fa224-7667-428e-9fb5-f0050637553a",
+    "password": "0c5a1679-4bf2-4f88-bc6d-d3af06f17ff5",
+    "responseArray": "",
+    "testPath": "C:\\Users\\anchaudhary\\Documents\\Test Studio Projects\\Indus-PerformancesMeasurements\\PMD\\TestFile",
+    "idData": null
   }
 }

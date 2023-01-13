@@ -21,14 +21,14 @@
         "key": "5Qpa4pp1E5DUSPwA4hEEnI",
         "type": "http-request",
         "properties": {
-          "Method": "GET",
+          "Method": "PUT",
           "Body": "{\"Content\":\"{\\r\\n\\t\\\"IdPerson\\\": \\\"{{id}}\\\",\\r\\n\\t\\\"IdCurrency\\\": 15,\\r\\n\\t\\\"Year\\\": 2022,\\r\\n\\t\\\"Month\\\": 7,\\r\\n\\t\\\"FullTimeGrossSalary\\\": 3000.30,\\r\\n\\t\\\"ActualGrossSalary\\\": 3500.35,\\r\\n\\t\\\"EmployeeCostToDeduce\\\": 300.55,\\r\\n\\t\\\"EmployeeCostToAdd\\\": 400.55,\\r\\n\\t\\\"PaidLeaveAllowance\\\": 50.50,\\r\\n\\t\\\"LayOffAllowance\\\": 70.70,\\r\\n\\t\\\"MonthlyBonus\\\": 4000.44,\\r\\n\\t\\\"YearlyBonus\\\": 6000.66,\\r\\n\\t\\\"PreviousYearRegulationBonus\\\": 5000.55,\\r\\n\\t\\\"YearlyBonusYear\\\": 2022\\r\\n\\t\\r\\n}\",\"FilePath\":null,\"Mode\":\"raw\"}",
           "Url": "{{base-url}}",
           "Authorization": "{\"mode\":\"none\",\"properties\":{\"username\":\"\",\"password\":\"\",\"properties\":{}}}",
           "FollowRedirects": false,
           "DecompressResponse": false,
           "Headers": "[{\"Content-Type\":\"application/json\"}]",
-          "Timeout": 20000
+          "Timeout": 60000
         }
       },
       "verifications": [
@@ -89,6 +89,7 @@
     "json": " ",
     "extractValue": null,
     "row": "0",
-    "fileName": "\\\\salaryCostAPI"
+    "fileName": "\\\\salaryCostAPI",
+    "testFile": "\\\\TestPerf"
   }
 }

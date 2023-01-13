@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="21339" total="1">
+  <tests>
+    <test key=".\CreateEmployeeApi" name="CreateEmployeeApi" outcome="failed" time="20729">
+      <step id="1uUOB5RwFuYS1nAx64Qd0W" name="LastName" outcome="passed" time="45">
+        <action id="3sT8AXjGPPjwFwTYIRauDv" type="coded-step" outcome="passed" time="37" />
+      </step>
+      <step id="1CaCqj2zssGtA5kXNNR286" name="Http Request" outcome="failed" time="20605">
+        <action id="7q7IEWuvSgbQcKfK6y4G28" type="http-request" outcome="failed" time="20604">
+          <error message="The operation has timed-out." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _03012023_11_05_32" />
+    <output message="File Not Find" />
+    <output message="leorek" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT  https://arc.pmdapi.is.ssg/api/v1/globalemployees" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

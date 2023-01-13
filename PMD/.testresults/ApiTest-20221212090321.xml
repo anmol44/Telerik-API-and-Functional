@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="1" failed="0" unexecuted="0" time="1422" total="1">
+  <tests>
+    <test key=".\GetEmployee-apim" name="GetEmployee-apim" outcome="passed" time="866">
+      <step id="2s54NkqZTq3xxDgckLOeSb" name="Http Request" outcome="passed" time="759">
+        <action id="6K6xy0h4YpTHL2h1Vj7iJj" type="http-request" outcome="passed" time="751" />
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _12122022_02_33_22" />
+    <output message="File Not Find" />
+    <output message="Executing HTTP Request: GET https://dev.api.is.ssg:8065//pmdapi/api//employees?page=1&amp;pageSize=100" />
+    <output message="Response received with status code: 404 Not Found" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors />
+</run>

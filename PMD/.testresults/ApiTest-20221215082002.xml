@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="3382" total="1">
+  <tests>
+    <test key=".\GetEmployee-apim" name="GetEmployee-apim" outcome="failed" time="2917">
+      <step id="2s54NkqZTq3xxDgckLOeSb" name="Http Request" outcome="failed" time="2858">
+        <action id="6K6xy0h4YpTHL2h1Vj7iJj" type="http-request" outcome="failed" time="2850">
+          <error message="Unable to connect to the remote server" />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _15122022_01_50_03" />
+    <output message="File Not Find" />
+    <output message="Executing HTTP Request: GET https://dev.api.is.ssg:/arc/pmdapi/api/v1/employees?page=1&amp;pageSize=100" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors>
+    <error message="Running test's 'OnAfterTestCompleted' method failed. Message: 'Object reference not set to an instance of an object.'" />
+  </errors>
+</run>

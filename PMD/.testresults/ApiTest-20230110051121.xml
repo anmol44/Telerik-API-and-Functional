@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="542" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="61" />
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _10012023_10_41_22" />
+    <output message="File Not Find" />
+    <output message="" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors>
+    <error message="Running test's 'OnBeforeTestStarted' method failed. Message: 'Object reference not set to an instance of an object.'" />
+    <error message="Running test's 'OnAfterTestCompleted' method failed. Message: 'Index was outside the bounds of the array.'" />
+  </errors>
+</run>

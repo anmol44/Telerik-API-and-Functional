@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="1" failed="0" unexecuted="0" time="10774" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="passed" time="10300">
+      <step id="5erTiX6FiI0ZwnWyljT8Sl" name="CreateId" outcome="passed" time="0">
+        <action id="2J6tsbc8viWtqwq8MTntZ6" type="coded-step" outcome="passed" time="0" />
+      </step>
+      <step id="7jBdhd1HWHjbBwo9mV3KZc" name="Http Request" outcome="passed" time="1179">
+        <action id="5Qpa4pp1E5DUSPwA4hEEnI" type="http-request" outcome="passed" time="1179" />
+      </step>
+      <step id="3MQkzQ1IuNmEEaVEDi2fZv" name="ResponseToExcelData" outcome="passed" time="1">
+        <action id="5RAMFK9L0ggFJFZQn5F5Yb" type="coded-step" outcome="passed" time="1" />
+      </step>
+      <step id="7utJK2ufKd5yLsgyec1EXQ" name="Loop" outcome="skipped" time="0">
+        <action id="5AJv0PFlcIDf65FBMPKJNG" type="verify" outcome="false" time="0">
+          <error message="Expected not equal to '5'. Actual was '5'" />
+        </action>
+        <action id="3E9KvaJC78sCmEZvSrTLTW" type="goto" outcome="passed" time="0" />
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _04012023_02_48_15" />
+    <output message="File Not Find" />
+    <output message="26424" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="" />
+    <output message="2190" />
+    <output message="30730" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="" />
+    <output message="4343" />
+    <output message="216565" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="" />
+    <output message="1203" />
+    <output message="102891" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="" />
+    <output message="1231" />
+    <output message="59260" />
+    <output message="Print environment arc" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="" />
+    <output message="1179" />
+    <output message="The test case is starting ..." />
+    <output message=" 2190 4343 1203 1231 1179" />
+    <output message="Ending the test case ..." />
+    <output message="fjefffffffffffffffffffffffffff" />
+    <output message="&#xD;&#xA;   ::   Test" />
+  </output>
+  <errors />
+</run>

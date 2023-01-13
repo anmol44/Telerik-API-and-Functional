@@ -1,0 +1,358 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION
+1,26424,FALSE,1798,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+2,30730,FALSE,635,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+3,216565,FALSE,656,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+4,102891,FALSE,621,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+5,59260,FALSE,608,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+6,255966,FALSE,621,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+7,112142,FALSE,632,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+8,112174,FALSE,606,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+9,112396,FALSE,616,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+10,176447,FALSE,656,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+11,129877,FALSE,666,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+12,174711,FALSE,615,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+13,179106,FALSE,662,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+14,135231,FALSE,625,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+15,189384,FALSE,640,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+16,276466,FALSE,722,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+17,210490,FALSE,612,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+18,233334,FALSE,614,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+19,236829,FALSE,648,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+20,257356,FALSE,686,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+21,26424,FALSE,611,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+22,30730,FALSE,593,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+23,216565,FALSE,604,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+24,102891,FALSE,609,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+25,59260,FALSE,614,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+26,255966,FALSE,688,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+27,112142,FALSE,704,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+28,112174,FALSE,596,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+29,112396,FALSE,646,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+30,176447,FALSE,626,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+31,129877,FALSE,756,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+32,174711,FALSE,789,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+33,179106,FALSE,837,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+34,135231,FALSE,791,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+35,189384,FALSE,741,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+36,276466,FALSE,772,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+37,210490,FALSE,719,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+38,233334,FALSE,741,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+39,236829,FALSE,752,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+40,257356,FALSE,719,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+41,26424,FALSE,716,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+42,30730,FALSE,728,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+43,216565,FALSE,694,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+44,102891,FALSE,692,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+45,59260,FALSE,710,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+46,255966,FALSE,770,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+47,112142,FALSE,719,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+48,112174,FALSE,758,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+49,112396,FALSE,812,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+50,176447,FALSE,1317,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+51,129877,FALSE,1264,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+52,174711,FALSE,1960,200,"0002
+0002
+0002
+0010
+0010
+0008
+0350
+","The IdPerson field is mandatory.
+The EffectiveDate field is mandatory.
+The employee -1 does not exist.
+The field SalaryStartDate is mandatory.
+The field SalaryEndDate is mandatory.
+The IdCurrency with the identifier 15 cannot be found.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+53,179106,FALSE,2883,200,"0100
+0350
+","The site’s salary tax rate must be higher than 0.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+54,135231,FALSE,2354,200,"0001
+","The person 135231 does not exist.
+",arc,v1
+55,189384,FALSE,3390,200,"0001
+","The person 189384 does not exist.
+",arc,v1
+56,276466,FALSE,1416,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+57,210490,FALSE,3163,200,"0100
+0001
+0350
+","The site’s salary tax rate must be higher than 0.
+The person 210490 does not exist.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+58,233334,FALSE,1074,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+59,236829,FALSE,2706,200,"0100
+0001
+","The site’s salary tax rate must be higher than 0.
+The person 236829 does not exist.
+",arc,v1
+60,257356,FALSE,1524,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+61,26424,FALSE,1320,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+62,30730,FALSE,835,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+63,216565,FALSE,1075,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+64,102891,FALSE,1160,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+65,59260,FALSE,973,200,"0002
+0002
+0002
+0010
+0010
+0008
+0350
+","The IdPerson field is mandatory.
+The EffectiveDate field is mandatory.
+The employee -1 does not exist.
+The field SalaryStartDate is mandatory.
+The field SalaryEndDate is mandatory.
+The IdCurrency with the identifier 15 cannot be found.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+66,255966,FALSE,2037,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+67,112142,FALSE,845,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+68,112174,FALSE,2186,200,"0001
+0100
+","The person 112174 does not exist.
+The site’s salary tax rate must be higher than 0.
+",arc,v1
+69,112396,FALSE,1140,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+70,176447,FALSE,1117,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+71,129877,FALSE,3996,200,"0100
+","The site’s salary tax rate must be higher than 0.
+",arc,v1
+72,174711,FALSE,1369,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+73,179106,FALSE,1166,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+74,135231,FALSE,1515,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+75,189384,FALSE,1730,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+76,276466,FALSE,3863,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+77,210490,FALSE,1385,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+78,233334,FALSE,4085,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+79,236829,FALSE,1793,200,"0002
+0002
+0002
+0010
+0010
+0008
+0350
+","The IdPerson field is mandatory.
+The EffectiveDate field is mandatory.
+The employee -1 does not exist.
+The field SalaryStartDate is mandatory.
+The field SalaryEndDate is mandatory.
+The IdCurrency with the identifier 15 cannot be found.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+80,257356,FALSE,1732,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+81,26424,FALSE,1677,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+82,30730,FALSE,1265,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+83,216565,FALSE,1568,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+84,102891,FALSE,1389,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+85,59260,FALSE,2667,200,"0100
+0001
+","The site’s salary tax rate must be higher than 0.
+The person 59260 does not exist.
+",arc,v1
+86,255966,FALSE,1073,200,"FUNCTIONALERROR_01
+","An internal error occured during rest api execution [00000000-0000-0000-0000-000000000000]
+",arc,v1
+87,112142,FALSE,1009,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+88,112174,FALSE,2544,200,"0100
+","The site’s salary tax rate must be higher than 0.
+",arc,v1
+89,112396,FALSE,1096,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+90,176447,FALSE,1292,200,"0002
+0002
+0002
+0010
+0010
+0008
+0350
+","The IdPerson field is mandatory.
+The EffectiveDate field is mandatory.
+The employee -1 does not exist.
+The field SalaryStartDate is mandatory.
+The field SalaryEndDate is mandatory.
+The IdCurrency with the identifier 15 cannot be found.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+91,129877,FALSE,1029,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+92,174711,FALSE,2191,200,"0001
+0350
+","The person 174711 does not exist.
+The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+93,179106,FALSE,2495,200,"0100
+0001
+","The site’s salary tax rate must be higher than 0.
+The person 179106 does not exist.
+",arc,v1
+94,135231,FALSE,2075,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+95,189384,FALSE,2792,200,"0100
+0001
+","The site’s salary tax rate must be higher than 0.
+The person 189384 does not exist.
+",arc,v1
+96,276466,FALSE,1066,200,"0350
+","The number of payrolls must be between 12 and 15 (included).
+",arc,v1
+97,210490,FALSE,7555,200,"0001
+","The person 210490 does not exist.
+",arc,v1

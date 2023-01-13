@@ -99,8 +99,6 @@
     "inc": "0",
     "json": " ",
     "extractValue": null,
-    "env": "arc",
-    "version": "v1",
     "fileName": "\\\\CreateEmployeeAPI",
     "row": "0"
   }

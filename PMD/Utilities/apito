@@ -5,6 +5,7 @@
     "CreateExcel.cs",
     "DataToExcel.cs",
     "JsonExtensions.cs",
-    "CreateCSV.cs"
+    "CSV.cs",
+    "Function.cs"
   ]
 }

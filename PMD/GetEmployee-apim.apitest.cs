@@ -100,7 +100,7 @@ namespace PMD
 			      }	
 			 
 			//DataToExcel.createDataExcelFile(path,"salaryApi",row,id,result,responseTime,statusCode,code,errors,env,vers);		
-		   CreateCSV.addrecord(row,"",result,responseTime,statusCode,code,errors,env,vers,path.ToString()+fileName.ToString()+dateandtime+".csv");
+		   CreateCSV.addrecord(row,"",result,responseTime,statusCode,code,errors,env,vers,"avg","max","min","mode","min",path.ToString()+fileName.ToString()+dateandtime+".csv");
 			this.Log.WriteLine(errors);			
 		}
 		
@@ -133,7 +133,7 @@ namespace PMD
 					this.Log.WriteLine("Regarding file :: " +e.Message.ToString());
 				}
 			
-		    CreateCSV.addrecord("SERIAL NUMBER","ID","RESULT","RESPONSE TIME","STATUS CODE","ERROR CODE","ERROR MESSAGE","ENVIRONMENT","VERSION",path.ToString()+fileName.ToString()+dateandtime+".csv");
+		    CreateCSV.addrecord("SERIAL NUMBER","ID","RESULT","RESPONSE TIME","STATUS CODE","ERROR CODE","ERROR MESSAGE","ENVIRONMENT","VERSION","AverageResponseOfID","MaximumDuration","MinimunDuration","Mode","Median",path.ToString()+fileName.ToString()+dateandtime+".csv");
 			}
 		
 		
@@ -142,12 +142,27 @@ namespace PMD
 			
 		//	string value ="";
 		//	string path = "";
-		    this.Log.WriteLine("Ending the test case ...");
 			
-		//	this.Count();
-		//	this.responseTime();	
-		//	path  =  this.Context.GetValue("path").ToString();	
-		//	DataToExcel.createDataExcelFile(path,"salaryApi","1","12","fafasfs","hhhiii");
+			 string path="";
+			 string fileName="";
+		   	 string dateandtime="";
+			 string responseArray=""; 
+			 string exitDateAndTime = "";
+			 
+			 path  =  this.Context.GetValue("path").ToString();	
+		 // name of File
+		    fileName = this.Context.GetValue("fileName").ToString();
+	   	//	CreateExcel.createExcel("salaryApi" ,path.ToString());
+		    dateandtime = this.Context.GetValue("dateAndTime").ToString();
+		// Date and time for the final data
+	        exitDateAndTime = DateTime.Now.ToString("_ddMMyyyy_hh_mm_ss");	
+			responseArray = this.Context.GetValue("responseArray").ToString();
+			this.Log.WriteLine(responseArray);
+			
+		    this.Log.WriteLine("Ending the test case ...");
+		//	CreateCSV.addrecord(" "," "," ", " "," "," ", " "," "," ",Function.average(responseArray).ToString(),Function.maximumDuration(responseArray).ToString(),Function.minimumDuration(responseArray).ToString(),PMD.Utilities.Function.mode(responseArray).ToString(),Function.median(responseArray).ToString(),path.ToString()+fileName.ToString()+dateandtime+".csv");
+			CreateCSV.createCSV(path.ToString()+fileName.ToString()+exitDateAndTime+".csv",path.ToString()+fileName.ToString()+dateandtime+".csv",Function.average(responseArray).ToString(),Function.maximumDuration(responseArray).ToString(),Function.minimumDuration(responseArray).ToString(),PMD.Utilities.Function.mode(responseArray).ToString(),Function.median(responseArray).ToString());
+			CreateCSV.deleteCSV(path.ToString()+fileName.ToString()+dateandtime+".csv");
 		}
 	}
 }
