@@ -140,15 +140,18 @@ namespace APIAutomation
 			
 			try{				
 				foreach(JToken token in j.FindTokens("Code")){
-					code = code+token.ToString()+Environment.NewLine;				
+					code = code+token.ToString()+" ";				
 				}				
 				foreach(JToken token in j.FindTokens("Message")){
-					errors = errors+token.ToString() + Environment.NewLine;
+					errors = errors+token.ToString() + " ";
 				}								
 		        //	 code = j["Results"][0]["IdPerson"].ToString();				
 			 }catch(Exception e){
 				this.Log.WriteLine("no value for IdPerson");				
 			      }	
+			 char[] separater = {' '};
+			 code = code.TrimEnd(separater);
+			 errors = errors.TrimEnd(separater);
 			 
 			//DataToExcel.createDataExcelFile(path,"salaryApi",row,id,result,responseTime,statusCode,code,errors,env,vers);		
 		   CreateCSV.addrecord(row,id,result,responseTime,statusCode,code,errors,env,vers,"","","","","",path.ToString()+fileName.ToString()+dateandtime+".csv");	
@@ -235,8 +238,10 @@ namespace APIAutomation
 	        exitDateAndTime = DateTime.Now.ToString("_ddMMyyyy_hh_mm_ss");	
 			responseArray = this.Context.GetValue("responseArray").ToString();
 		    this.Log.WriteLine("Ending the test case ...");
+		//	this.Log.WriteLine(responseArray+"ANMOL");
 		//	CreateCSV.addrecord(" "," "," ", " "," "," ", " "," "," ",Function.average(responseArray).ToString(),Function.maximumDuration(responseArray).ToString(),Function.minimumDuration(responseArray).ToString(),PMD.Utilities.Function.mode(responseArray).ToString(),Function.median(responseArray).ToString(),path.ToString()+fileName.ToString()+dateandtime+".csv");
 			CreateCSV.createCSV(path.ToString()+fileName.ToString()+exitDateAndTime+".csv",path.ToString()+fileName.ToString()+dateandtime+".csv",Function.average(responseArray).ToString(),Function.maximumDuration(responseArray).ToString(),Function.minimumDuration(responseArray).ToString(),PMD.Utilities.Function.mode(responseArray).ToString(),Function.median(responseArray).ToString());
+		//	this.Log.WriteLine("Anmol");
 			CreateCSV.deleteCSV(path.ToString()+fileName.ToString()+dateandtime+".csv");
 		//	this.Count();
 		//	this.responseTime();	

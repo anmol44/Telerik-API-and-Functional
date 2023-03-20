@@ -36,15 +36,19 @@ namespace PMD.Utilities
 					string str = "" ;
 					string[] st ;
 					char[] seperator = {','};
-				    actualString = sr.ReadLine().ToString();
-					str = sr.ReadLine().ToString();
+				    actualString = sr.ReadLine();
+					str = sr.ReadLine();
 					st = str.Split(seperator);
+					//Console.WriteLine(st.Length.ToString());
+					//Console.WriteLine(str);
+					//Console.WriteLine(sr.Read());
 					st[11] = average;
 					st[12] = maxDuration;
 					st[13] = minDuration;
 					st[14] = mode;
 					st[15] = median;
 					str="";
+					Console.WriteLine(st.Length);
 					for(int i=0;i<st.Length;i++){
 						str =str + st[i]+",";
 					}

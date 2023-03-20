@@ -565,7 +565,7 @@
     "TestLinks": [],
     "Description": "uses coded step to delete all messages sent on Wednesday",
     "Name": "Test #7 - Delete multiple messages, verify deletion",
-    "Owner": null,
+    "Owner": "",
     "Path": "Test #7 - Delete multiple messages, verify deletion.tstest",
     "Priority": 0,
     "TestType": 0,

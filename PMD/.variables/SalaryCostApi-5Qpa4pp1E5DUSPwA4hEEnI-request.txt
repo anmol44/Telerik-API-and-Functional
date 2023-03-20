@@ -1,5 +1,5 @@
 {
-	"IdPerson": "173457",
+	"IdPerson": "",
 	"IdCurrency": 15,
 	"Year": 2022,
 	"Month": 7,

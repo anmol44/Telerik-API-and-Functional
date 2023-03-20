@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="1" failed="0" unexecuted="0" time="1960" total="1">
+  <tests>
+    <test key=".\slTest" name="slTest" outcome="passed" time="1263">
+      <step id="4V3lY5EW7BqCMxjyQD4Zc6" name="Http Request" outcome="passed" time="1257">
+        <action id="2paIsQilPdRbOKeahmhJHz" type="http-request" outcome="passed" time="1248" />
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 500 Internal Server Error" />
+  </output>
+  <errors />
+</run>

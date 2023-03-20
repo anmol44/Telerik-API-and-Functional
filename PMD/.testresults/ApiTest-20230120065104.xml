@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="3473" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="3092">
+      <step id="5erTiX6FiI0ZwnWyljT8Sl" name="CreateId" outcome="passed" time="46">
+        <action id="2J6tsbc8viWtqwq8MTntZ6" type="coded-step" outcome="passed" time="34" />
+      </step>
+      <step id="7jBdhd1HWHjbBwo9mV3KZc" name="Http Request" outcome="passed" time="2919">
+        <action id="5Qpa4pp1E5DUSPwA4hEEnI" type="http-request" outcome="passed" time="2919" />
+      </step>
+      <step id="3MQkzQ1IuNmEEaVEDi2fZv" name="ResponseToExcelData" outcome="passed" time="71">
+        <action id="5RAMFK9L0ggFJFZQn5F5Yb" type="coded-step" outcome="passed" time="71" />
+      </step>
+      <step id="7utJK2ufKd5yLsgyec1EXQ" name="Loop" outcome="skipped">
+        <action id="5AJv0PFlcIDf65FBMPKJNG" type="verify" outcome="false" time="30">
+          <error message="Expected not equal to '1'. Actual was '1'" />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _20012023_12_21_04" />
+    <output message="File Not Find" />
+    <output message="ID Data imported to idData variable in String format" />
+    <output message="40247" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2919" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors>
+    <error message="Running test's 'OnAfterTestCompleted' method failed. Message: 'Index was outside the bounds of the array.'" />
+  </errors>
+</run>

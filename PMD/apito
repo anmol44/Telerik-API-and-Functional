@@ -2,10 +2,12 @@
   "$version": "test-order/v1",
   "items": [
     "SalaryCostApi.apitest",
+    "slTest.apitest",
     "CreateEmployeeApi.apitest",
     "Utilities",
     "Output",
     "GetEmployee-direct-call.apitest",
-    "GetEmployee-apim.apitest"
+    "GetEmployee-apim.apitest",
+    "TestFile"
   ]
 }

@@ -1,0 +1,4 @@
+IdPerson,IdCurrency,Year,Month,FullTimeGrossSalary,ActualGrossSalary,EmployeeCostToDeduce,EmployeeCostToAdd,PaidLeaveAllowance,LayOffAllowance,MonthlyBonus,YearlyBonus,PreviousYearRegulationBonus,YearlyBonusYear
+40247,15,2022,11,3000.3,3500.35,300.55,400.55,50.5,70.7,4000.44,6000.66,5000.55,2022
+40247,15,2022,11,3000.3,3500.35,300.55,400.55,50.5,70.7,4000.44,6000.66,5000.55,2022
+40247,15,2022,11,3000.3,3500.35,300.55,400.55,50.5,70.7,4000.44,6000.66,5000.55,2022

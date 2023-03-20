@@ -89,7 +89,6 @@
     "json": " ",
     "extractValue": null,
     "row": "0",
-    "fileName": "\\\\salaryCostAPI",
-    "testFile": "\\\\TestPerf"
+    "fileName": "\\\\salaryCostAPI"
   }
 }
