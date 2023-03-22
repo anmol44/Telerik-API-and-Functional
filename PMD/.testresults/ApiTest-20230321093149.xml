@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="58040" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="57544">
+      <step id="5erTiX6FiI0ZwnWyljT8Sl" name="CreateId" outcome="passed" time="0">
+        <action id="2J6tsbc8viWtqwq8MTntZ6" type="coded-step" outcome="passed" time="0" />
+      </step>
+      <step id="7jBdhd1HWHjbBwo9mV3KZc" name="Http Request" outcome="passed" time="4289">
+        <action id="5Qpa4pp1E5DUSPwA4hEEnI" type="http-request" outcome="passed" time="4289" />
+      </step>
+      <step id="3MQkzQ1IuNmEEaVEDi2fZv" name="ResponseToExcelData" outcome="failed" time="253">
+        <action id="5RAMFK9L0ggFJFZQn5F5Yb" type="coded-step" outcome="failed" time="253">
+          <error message="This file has some problem : System.IO.IOException: The process cannot access the file 'C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\PMD\Output\salaryCostAPI_21032023_03_01_50.csv' because it is being used by another process.&#xD;&#xA;   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)&#xD;&#xA;   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)&#xD;&#xA;   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)&#xD;&#xA;   at System.IO.StreamWriter..ctor(String path, Boolean append)&#xD;&#xA;   at PMD.Utilities.CreateCSV.addrecord(String SrNumber, String Id, String Result, String ResponseTime, String StatusCode, String ErrorCode, String ErrorMessage, String Environment, String Version, String AverageResponseID, String MaximumDuration, String MinimunDuration, String Mode, String Median, String path) in C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\PMD\Utilities\CSV.cs:line 15" />
+        </action>
+      </step>
+      <step id="7utJK2ufKd5yLsgyec1EXQ" name="Loop" outcome="passed" time="0">
+        <action id="5AJv0PFlcIDf65FBMPKJNG" type="verify" outcome="true" time="0" />
+        <action id="3E9KvaJC78sCmEZvSrTLTW" type="goto" outcome="passed" time="0" />
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _21032023_03_01_50" />
+    <output message="File Not Find" />
+    <output message="ID Data imported to idData variable in String format" />
+    <output message="163463" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="3091" />
+    <output message="211719" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2604" />
+    <output message="313195" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2630" />
+    <output message="230653" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2803" />
+    <output message="249727" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2711" />
+    <output message="139506" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2399" />
+    <output message="265506" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2592" />
+    <output message="264965" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2483" />
+    <output message="204625" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2498" />
+    <output message="193186" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2715" />
+    <output message="119459" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2808" />
+    <output message="176165" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2534" />
+    <output message="289119" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2753" />
+    <output message="165031" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2473" />
+    <output message="323386" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="no value for IdPerson" />
+    <output message="2417" />
+    <output message="155179" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2837" />
+    <output message="128511" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2774" />
+    <output message="146495" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="4797" />
+    <output message="156947" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="2755" />
+    <output message="188911" />
+    <output message="Executing HTTP Request: PUT https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts" />
+    <output message="Response received with status code: 200 OK" />
+    <output message="Number of Tokens in Jason : 5" />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors>
+    <error message="Running test's 'OnAfterTestCompleted' method failed. Message: 'The process cannot access the file 'C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\PMD\Output\salaryCostAPI_21032023_03_01_50.csv' because it is being used by another process.'" />
+  </errors>
+</run>

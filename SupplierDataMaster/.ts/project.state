@@ -36,4 +36,12 @@
     <OpenItemType>CodeFile</OpenItemType>
     <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\APIPMD\API.tstest.cs</Path>
   </OpenItem>
+  <OpenItem>
+    <OpenItemType>TestFile</OpenItemType>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\APIPMD\ApiTest.tstest</Path>
+  </OpenItem>
+  <OpenItem>
+    <OpenItemType>CodeFile</OpenItemType>
+    <Path>C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\SupplierDataMaster\APIPMD\ApiTest.tstest.cs</Path>
+  </OpenItem>
 </ArrayOfOpenItem>

@@ -1,0 +1,44 @@
+{
+  "$version": "test-case/v1",
+  "steps": [
+    {
+      "key": "4V3lY5EW7BqCMxjyQD4Zc6",
+      "name": "Http Request",
+      "action": {
+        "key": "2paIsQilPdRbOKeahmhJHz",
+        "type": "http-request",
+        "properties": {
+          "Method": "PUT",
+          "Body": "{\"Content\":\"{\\r\\n\\t\\\"IdPerson\\\": \\\"40247\\\",\\r\\n\\t\\\"IdCurrency\\\": 15,\\r\\n\\t\\\"Year\\\": 2022,\\r\\n\\t\\\"Month\\\": 7,\\r\\n\\t\\\"FullTimeGrossSalary\\\": 3000.30,\\r\\n\\t\\\"ActualGrossSalary\\\": 3500.35,\\r\\n\\t\\\"EmployeeCostToDeduce\\\": 300.55,\\r\\n\\t\\\"EmployeeCostToAdd\\\": 400.55,\\r\\n\\t\\\"PaidLeaveAllowance\\\": 50.50,\\r\\n\\t\\\"LayOffAllowance\\\": 70.70,\\r\\n\\t\\\"MonthlyBonus\\\": 4000.44,\\r\\n\\t\\\"YearlyBonus\\\": 6000.66,\\r\\n\\t\\\"PreviousYearRegulationBonus\\\": 5000.55,\\r\\n\\t\\\"YearlyBonusYear\\\": 2022\\r\\n\\t\\r\\n}\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Url": "https://arc.salarycostsapi.is.ssg/api/v1/SalaryCosts"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "3sz5eduW8R38cUHmUP55s1",
+      "name": "loop",
+      "condition": {
+        "key": "4GguvRU5aWyG8FgMkudnZO",
+        "type": "verify",
+        "properties": {
+          "SourceVariable": "Body",
+          "SourcePathType": "none",
+          "OperationType": "is-equal",
+          "Expectation": ""
+        }
+      },
+      "action": {
+        "key": "1vrDNR7bCjpmziteNYkO8T",
+        "type": "goto",
+        "properties": {
+          "StepKey": "4V3lY5EW7BqCMxjyQD4Zc6"
+        }
+      },
+      "verifications": []
+    }
+  ],
+  "variables": {
+    "TestFile": "TestFile"
+  }
+}
