@@ -2,7 +2,6 @@
   "$version": "project-settings/v1",
   "projectLanguage": "cs",
   "projectReferences": [
-    "GemBox.Spreadsheet",
     "C:\\Users\\anchaudhary\\Documents\\newtonsoft.json\\Newtonsoft.Json.dll"
   ],
   "skipCertificateValidation": false,

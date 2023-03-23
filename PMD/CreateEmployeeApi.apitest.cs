@@ -3,7 +3,7 @@ using Telerik.ApiTesting.Framework;
 using Telerik.ApiTesting.Framework.Abstractions;
 using APIAutomation.Utilities;
 using Newtonsoft.Json.Linq;
-using GemBox.Spreadsheet;
+
 using PMD.Utilities;
 using System.IO;
 
