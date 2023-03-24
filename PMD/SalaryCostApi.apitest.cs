@@ -2,11 +2,11 @@ using System;
 using Telerik.ApiTesting.Framework;
 using Telerik.ApiTesting.Framework.Abstractions;
 using APIAutomation.Utilities;
-using Newtonsoft.Json.Linq;
 
 using PMD.Utilities;
 using System.Globalization;
 using System.IO;
+using Newtonsoft.Json.Linq;
 
 namespace APIAutomation
 {

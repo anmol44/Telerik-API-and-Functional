@@ -2,7 +2,7 @@
   "$version": "project-settings/v1",
   "projectLanguage": "cs",
   "projectReferences": [
-    "C:\\Users\\anchaudhary\\Documents\\newtonsoft.json\\Newtonsoft.Json.dll"
+    "C:\\Program Files (x86)\\Progress\\Test Studio\\Bin\\ApiTesting\\runnerconsole\\Newtonsoft.Json.dll"
   ],
   "skipCertificateValidation": false,
   "variables": {
@@ -20,6 +20,6 @@
     "responseArray": "",
     "testPath": "C:\\Users\\anchaudhary\\Documents\\Test Studio Projects\\Indus-PerformancesMeasurements\\PMD\\TestFile",
     "idData": null,
-    "testFile": "\\\\TestPerf"
+    "testFile": "\\\\TestPerf_Alche"
   }
 }

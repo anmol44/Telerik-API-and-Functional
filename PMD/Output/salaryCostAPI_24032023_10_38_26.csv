@@ -1,0 +1,7 @@
+SERIAL NUMBER,ID,RESULT,RESPONSE TIME,STATUS CODE,"ERROR CODE","ERROR MESSAGE",ENVIRONMENT,VERSION, , ,AverageResponseOfID,MaximumDuration,MinimunDuration,Mode,Median
+1,11458,PASS,25113,200,"","",arc,v1, , ,,,,,
+2,7885,PASS,27491,200,"","",arc,v1, , ,,,,,
+3,7897,PASS,31290,200,"","",arc,v1, , ,,,,,
+4,13916,PASS,28873,200,"","",arc,v1, , ,,,,,
+5,6678,PASS,29734,200,"","",arc,v1, , ,,,,,
+6,10913,PASS,26155,200,"","",arc,v1, , ,,,,,
