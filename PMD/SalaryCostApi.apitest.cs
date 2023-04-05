@@ -31,7 +31,7 @@ namespace APIAutomation
 		//	}
 			
 			idData = this.Context.GetValue("idData").ToString();
-			this.Log.WriteLine(Function.getIDFromString(idData.TrimEnd(' '),rowNumber));
+			this.Log.WriteLine("UserId is : "+Function.getIDFromString(idData.TrimEnd(' '),rowNumber)+"  rowNumber is : "+rowNumber);
 			string lm = Function.getIDFromString(idData.TrimEnd(' '),rowNumber);
 			rowNumber =rowNumber+1;
 			this.Context.SetValue("row",rowNumber.ToString());
@@ -155,16 +155,16 @@ namespace APIAutomation
 			 
 			//DataToExcel.createDataExcelFile(path,"salaryApi",row,id,result,responseTime,statusCode,code,errors,env,vers);		
 		   CreateCSV.addrecord(row,id,result,responseTime,statusCode,code,errors,env,vers,"","","","","",path.ToString()+fileName.ToString()+dateandtime+".csv");	
-			 ResponseTime();
+			 ResponseTime(id);
 		}
 		
 		
-	public  void  ResponseTime()
+	public  void  ResponseTime(String id)
 		{
 			string rt ="";
 			string responseArray = "";
 		    rt = this.Context.GetValue("ResponseTime").ToString();
-			this.Log.WriteLine(rt);
+			this.Log.WriteLine("Response Time for : "+id+" is "+rt);
 			responseArray = this.Context.GetValue("responseArray").ToString();
 			responseArray = Function.appendString(responseArray,rt).ToString();
 			
