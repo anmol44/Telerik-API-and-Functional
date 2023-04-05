@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="808" total="1">
+  <tests>
+    <test key=".\SalaryCostApi" name="SalaryCostApi" outcome="failed" time="148">
+      <step id="5erTiX6FiI0ZwnWyljT8Sl" name="CreateId" outcome="failed" time="78">
+        <action id="2J6tsbc8viWtqwq8MTntZ6" type="coded-step" outcome="failed" time="69">
+          <error message="Object reference not set to an instance of an object." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="The test case is starting ..." />
+    <output message="Create Excel Result File" />
+    <output message="Time of starting Test :: _05042023_11_57_01" />
+    <output message="File Not Find" />
+    <output message="Get CSV :: The process cannot access the file 'C:\Users\anchaudhary\Documents\Test Studio Projects\Indus-PerformancesMeasurements\PMD\TestFile\TestPerf_Alche.csv' because it is being used by another process." />
+    <output message="Ending the test case ..." />
+  </output>
+  <errors>
+    <error message="Running test's 'OnAfterTestCompleted' method failed. Message: 'Index was outside the bounds of the array.'" />
+  </errors>
+</run>

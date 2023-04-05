@@ -22,7 +22,7 @@ namespace APIAutomation
 		//	int arrayLength = lastnames.GetLength(0);
 		//	this.Context.SetValue("length",loopTest.ToString());
 			int rowNumber = Int32.Parse(this.Context.GetValue("row").ToString());
-			
+            
 			
 		//	int loop = Int32.Parse(this.Context.GetValue("inc").ToString());
 		//	if(loop%arrayLength==0){
@@ -31,9 +31,10 @@ namespace APIAutomation
 		//	}
 			
 			idData = this.Context.GetValue("idData").ToString();
-			this.Log.WriteLine("UserId is : "+Function.getIDFromString(idData.TrimEnd(' '),rowNumber)+"  rowNumber is : "+rowNumber);
 			string lm = Function.getIDFromString(idData.TrimEnd(' '),rowNumber);
-			rowNumber =rowNumber+1;
+			this.Log.WriteLine("UserId is : "+Function.getIDFromString(idData.TrimEnd(' '),rowNumber)+"  rowNumber is : "+(++rowNumber));
+			
+		//	rowNumber =rowNumber+1;
 			this.Context.SetValue("row",rowNumber.ToString());
 		//	string lm = Function.getIDFromString(idData.TrimEnd(' '),rowNumber);
 		//	String lm = lastnames[loop];

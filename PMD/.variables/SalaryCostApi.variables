@@ -1,0 +1,13 @@
+{
+  "$version": "runtime-variables/v1",
+  "scopes": {
+    "5erTiX6FiI0ZwnWyljT8Sl": {
+      "variables": {}
+    },
+    ".\\SalaryCostApi": {
+      "variables": {
+        "dateAndTime": "_05042023_11_57_01"
+      }
+    }
+  }
+}
